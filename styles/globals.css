@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .scrollbar-none {
+        scrollbar-width: none;
+    }
+    .origin-center-left {
+        transform-origin: center left;
+    }
+    .origin-center-right {
+        transform-origin: center right;
+    }
+    .zoom-100 {
+        zoom: 1;
+    }
+    .zoom-90 {
+        zoom: .9;
+    }
+    .zoom-80 {
+        zoom: .8;
+    }
+    .zoom-70 {
+        zoom: .7;
+    }
+    .zoom-60 {
+        zoom: .6;
+    }
+    .zoom-50 {
+        zoom: .5;
+    }
+    .zoom-40 {
+        zoom: .4;
+    }
+    .zoom-30 {
+        zoom: .3;
+    }
+    .zoom-20 {
+        zoom: .2;
+    }
+    .zoom-10 {
+        zoom: .1;
+    }
+}
