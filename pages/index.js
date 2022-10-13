@@ -8,6 +8,9 @@ import BoxNhomHang from '../components/modules/box-nhom-hang';
 import BoxNhomSanPhamKhuyenMai from '../components/modules/box-nhom-san-pham-khuyen-mai';
 import BoxNhomSanPham from '../components/modules/box-nhom-san-pham';
 import NewsHome from '../components/modules/news-home';
+import LoginPopup from '../components/layouts/popup-login';
+import Link from 'next/link'
+
 
 export default function Home({}) {
   return (
@@ -18,6 +21,8 @@ export default function Home({}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      {/* <LoginPopup/> */}
+
       <div className="container">
         <div className="lg:pl-60 w-full pt-2">
           <div className="sm:mb-4">

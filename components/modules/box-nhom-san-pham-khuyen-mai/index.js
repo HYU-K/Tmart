@@ -17,12 +17,26 @@ export default function BoxNhomSanPhamKhuyenMai() {
     return (
         <div className="bg-white" id="">
             <div before=""
-                className="flex items-center justify-between relative z-10 px-4 py-2 before:content-[attr(before)] before:bg-color1 before:opacity-[0.07] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1]">
-                <h2 className="title16 uppercase text-color1 font-medium">sản phẩm khuyến mãi</h2>
-                <div className="max-w-3/4 cursor-pointer hidden sm:block">
+                className="flex items-center justify-between relative z-10 px-4 py-2 bg-red-100 ">
+                <h2 className="title16 uppercase text-white sm:text-color1 font-medium">sản phẩm khuyến mãi</h2>
+                <div className="max-w-2/3 lg:max-w-3/4 cursor-pointer hidden sm:block">
                     <div className="relative list-title-sale px-7">
                         <>
                             <Swiper
+                                breakpoints={{
+                                    1220: {
+                                        slidesPerView: 6,
+                                    },
+
+                                    960: {
+                                        slidesPerView: 4,
+                                    },
+
+                                    0: {
+                                        slidesPerView: 3,
+                                    },
+                                }}
+
                                 slidesPerView={6}
                                 spaceBetween={10}
                                 slidesPerGroup={2}
@@ -34,61 +48,61 @@ export default function BoxNhomSanPhamKhuyenMai() {
                             >
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] active flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] active flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">3500 khuyến mãi sốc</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Thịt, cá, trứng,...</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Rau, củ, trái cây</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Bia, nước giải khát</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Sữa các loại</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Bánh kẹo các loại</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Rau, củ, trái cây</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Bia, nước giải khát</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Sữa các loại</span>
                                     </a>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <a href="" title=""
-                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 limit-text-2 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
+                                        className="swiper-slide min-h-[46px] flex w-full text-center justify-center items-center p-1 border border-texth text-texth bg-white rounded overflow-hidden active:border-color1 active:text-color1 hover:border-color1 hover:text-color1">
                                         <span className="text-xs font-bold">Bánh kẹo các loại</span>
                                     </a>
                                 </SwiperSlide>

@@ -1,4 +1,5 @@
 import styles from '../../styles/Home.module.css'
+import Link from 'next/link';
 
 export default function Header(props) {
     return (
@@ -187,7 +188,9 @@ export default function Header(props) {
                     </div>
                     <div className="flex items-center justify-between px-1 py-2 w-full order-1 lg:order-2">
                         <div className="min-w-[37px] h-[34px] mr-6">
+                            <Link href={'/'}>
                             <a href="./index.html" title=""><img src="../images/icon/Logo-filnal.png" alt="" /></a>
+                            </Link>
                         </div>
                         <div className="flex items-center w-full">
                             <div

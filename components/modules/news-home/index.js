@@ -14,7 +14,7 @@ export default function NewsHome() {
                                 className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-full h-full object-cover" />
                         </div>
                     </div>
-                    <div className="w-full pl-4 limit-text-2 overflow-hidden">
+                    <div className={`w-full pl-4  overflow-hidden ${styles.limit_text_2}`}>
                         <p className="title13 text-texth hover:text-color1">Dạy trẻ 5 thói quen sau để phòng
                             bệnh trong mùa tựu trường
                         </p>
