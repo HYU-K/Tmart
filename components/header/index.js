@@ -47,8 +47,8 @@ export default function Header(props) {
                                         </li>
                                         <li className={`group mb-[22px] cursor-pointer w-full relative overflow-hidden ${styles.active}`}>
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Thịt, cá, trứng</a>
-                                            <div className={`pl-3 pt-3 relative w-full ${styles.sub_menu}`}>
+                                                href="" title="">Thịt, cá, trứng</a>
+                                            <div className={`pl-3 pt-3 relative w-full hidden ${styles.sub_menu}`}>
                                                 <div className="mb-3 min-w-full border-none"><a
                                                         className="text-[13px] text-texth font-medium hover:text-color1"
                                                         href="" title="">Thịt các loại</a></div>
@@ -58,7 +58,7 @@ export default function Header(props) {
                                                 <div className={`mb-3 min-w-full border-none relative w-full ${styles.active}`}>
                                                     <a className="text-[13px] text-texth font-medium hover:text-color1"
                                                         href="" title="">Trứng gà, vịt, cút</a>
-                                                    <div className={`pl-3 pt-3 w-full relative border-none ${styles.sub_menu}`}>
+                                                    <div className={`pl-3 pt-3 w-full relative border-none hidden ${styles.sub_menu}`}>
                                                         <div className="mb-3"><a
                                                                 className="text-xs text-texth font-medium hover:text-color1"
                                                                 href="" title="">menu...</a></div>
@@ -84,51 +84,51 @@ export default function Header(props) {
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Rau, củ, quả</a>
+                                                href="" title="">Rau, củ, quả</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Gạo, bột, đồ khô</a>
+                                                href="" title="">Gạo, bột, đồ khô</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Bia, nước giải khát</a>
+                                                href="" title="">Bia, nước giải khát</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Sữa các loại</a>
+                                                href="" title="">Sữa các loại</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Mẹ & Bé</a>
+                                                href="" title="">Mẹ & Bé</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Đồ gia dụng </a>
+                                                href="" title="">Đồ gia dụng </a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Bánh kẹo các loại</a>
+                                                href="" title="">Bánh kẹo các loại</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Dầu ăn, nước chấm, gia vị</a>
+                                                href="" title="">Dầu ăn, nước chấm, gia vị</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Rau, củ, quả</a>
+                                                href="" title="">Rau, củ, quả</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Gạo, bột, đồ khô</a>
+                                                href="" title="">Gạo, bột, đồ khô</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Bia, nước giải khát</a>
+                                                href="" title="">Bia, nước giải khát</a>
                                         </li>
                                         <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                                                href="./list-product.html" title="">Sữa các loại</a>
+                                                href="" title="">Sữa các loại</a>
                                         </li>
                                     </ul>
                                     <div

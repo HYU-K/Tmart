@@ -17,8 +17,17 @@ export default function BoxNhomSanPhamKhuyenMai() {
     return (
         <div className="bg-white" id="">
             <div before=""
-                className="flex items-center justify-between relative z-10 px-4 py-2 bg-red-100 ">
+                className="flex items-center justify-between relative w-fit mx-auto mb-4 sm:mb-0 sm:w-full z-10 px-12 sm:px-4 py-2 sm:bg-red-100 before:content-[attr(before)] before:w-full before:h-1 before:bg-red-600 before:absolute before:top-0 before:left-0">
+                <div className="w-8 h-8 sm:hidden">
+                    <img src="./images/icon/set.png" alt="" className="w-full" />
+                </div>
                 <h2 className="title16 uppercase text-white sm:text-color1 font-medium">sản phẩm khuyến mãi</h2>
+                <div className="w-8 h-8 sm:hidden">
+                    <img src="./images/icon/set1.png" alt="" className="w-full" />
+                </div>
+                <div className="w-full h-full absolute top-0 left-1/2 -translate-x-1/2 overflow-auto -z-10">
+                    <img src="./images/bg-title.png" alt="" className="w-full h-full" />
+                </div>
                 <div className="max-w-2/3 lg:max-w-3/4 cursor-pointer hidden sm:block">
                     <div className="relative list-title-sale px-7">
                         <>

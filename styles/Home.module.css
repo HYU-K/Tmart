@@ -1,6 +1,9 @@
 .active .sub_menu {
   display: block;
 }
+.visible {
+  left: 0;
+}
 .menu_main {
   scrollbar-width: none;
 }

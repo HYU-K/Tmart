@@ -17,7 +17,7 @@ export default function BoxNhomSanPhamKhuyenMai() {
     return (
         <div className="bg-white" id="">
             <div before=""
-              className="flex items-center justify-between relative z-10 px-4 py-2 bg-gray-100">
+              className="flex items-center justify-between relative z-10 px-4 py-2 bg-gray-200">
               <h2 className="title16 uppercase text-texth font-medium">THỊT, CÁ, TRỨNG, HẢI SẢN</h2>
                 <div className="max-w-2/3 lg:max-w-3/4 cursor-pointer hidden sm:block">
                     <div className="relative list-title-sale px-7">
