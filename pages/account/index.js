@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import SlideHome from "../../components/modules/slide-home";
 import Link from "next/link";
 
 export default function Home({ }) {
@@ -26,17 +25,19 @@ export default function Home({ }) {
               Nguyễn Văn A
             </h2>
             <div className="flex items-center gap-3 justify-between">
-              <a className="group flex items-center zoom-80 xs:zoom-100" href="" title="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" className="text-blue-500 mr-2 group-hover:text-red-500">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M7.33301 13.3334C7.33301 12.9652 7.63148 12.6667 7.99967 12.6667H13.9997C14.3679 12.6667 14.6663 12.9652 14.6663 13.3334C14.6663 13.7016 14.3679 14.0001 13.9997 14.0001H7.99967C7.63148 14.0001 7.33301 13.7016 7.33301 13.3334Z"
-                    fill="" />
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M11.9997 2.58577C11.8014 2.58577 11.6113 2.66453 11.4711 2.80473L3.26833 11.0075L2.91593 12.4171L4.32552 12.0647L12.5283 3.86192C12.5977 3.7925 12.6528 3.71009 12.6903 3.6194C12.7279 3.5287 12.7472 3.43149 12.7472 3.33332C12.7472 3.23515 12.7279 3.13794 12.6903 3.04725C12.6528 2.95655 12.5977 2.87414 12.5283 2.80473C12.4589 2.73531 12.3765 2.68025 12.2858 2.64268C12.1951 2.60511 12.0979 2.58577 11.9997 2.58577ZM10.5283 1.86192C10.9185 1.47168 11.4478 1.25244 11.9997 1.25244C12.273 1.25244 12.5435 1.30626 12.796 1.41084C13.0485 1.51541 13.2779 1.66869 13.4711 1.86192C13.6643 2.05514 13.8176 2.28454 13.9222 2.537C14.0267 2.78947 14.0806 3.06006 14.0806 3.33332C14.0806 3.60659 14.0267 3.87718 13.9222 4.12964C13.8176 4.3821 13.6643 4.6115 13.4711 4.80473L5.13776 13.1381C5.05232 13.2235 4.94527 13.2841 4.82805 13.3134L2.16138 13.9801C1.9342 14.0369 1.69387 13.9703 1.52828 13.8047C1.3627 13.6391 1.29613 13.3988 1.35293 13.1716L2.01959 10.505C2.0489 10.3877 2.10951 10.2807 2.19495 10.1953L10.5283 1.86192Z"
-                    fill="" />
-                </svg>
-                <span className="text-blue-500 group-hover:text-red-500">Sửa thông tin</span>
-              </a>
+              <Link href={'/account-information'}>
+                <a className="group flex items-center zoom-80 xs:zoom-100" href="" title="">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" className="text-blue-500 mr-2 group-hover:text-red-500">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M7.33301 13.3334C7.33301 12.9652 7.63148 12.6667 7.99967 12.6667H13.9997C14.3679 12.6667 14.6663 12.9652 14.6663 13.3334C14.6663 13.7016 14.3679 14.0001 13.9997 14.0001H7.99967C7.63148 14.0001 7.33301 13.7016 7.33301 13.3334Z"
+                      fill="" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M11.9997 2.58577C11.8014 2.58577 11.6113 2.66453 11.4711 2.80473L3.26833 11.0075L2.91593 12.4171L4.32552 12.0647L12.5283 3.86192C12.5977 3.7925 12.6528 3.71009 12.6903 3.6194C12.7279 3.5287 12.7472 3.43149 12.7472 3.33332C12.7472 3.23515 12.7279 3.13794 12.6903 3.04725C12.6528 2.95655 12.5977 2.87414 12.5283 2.80473C12.4589 2.73531 12.3765 2.68025 12.2858 2.64268C12.1951 2.60511 12.0979 2.58577 11.9997 2.58577ZM10.5283 1.86192C10.9185 1.47168 11.4478 1.25244 11.9997 1.25244C12.273 1.25244 12.5435 1.30626 12.796 1.41084C13.0485 1.51541 13.2779 1.66869 13.4711 1.86192C13.6643 2.05514 13.8176 2.28454 13.9222 2.537C14.0267 2.78947 14.0806 3.06006 14.0806 3.33332C14.0806 3.60659 14.0267 3.87718 13.9222 4.12964C13.8176 4.3821 13.6643 4.6115 13.4711 4.80473L5.13776 13.1381C5.05232 13.2235 4.94527 13.2841 4.82805 13.3134L2.16138 13.9801C1.9342 14.0369 1.69387 13.9703 1.52828 13.8047C1.3627 13.6391 1.29613 13.3988 1.35293 13.1716L2.01959 10.505C2.0489 10.3877 2.10951 10.2807 2.19495 10.1953L10.5283 1.86192Z"
+                      fill="" />
+                  </svg>
+                  <span className="text-blue-500 group-hover:text-red-500">Sửa thông tin</span>
+                </a>
+              </Link>
               <a className="group flex items-center zoom-80 xs:zoom-100" href="" title="">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="text-blue-500 mr-2 group-hover:text-red-500">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 15.75C10.5 15.3358 10.8358 15 11.25 15L14.25 15C14.4489 15 14.6397 14.921 14.7803 14.7803C14.921 14.6397 15 14.4489 15 14.25L15 3.75C15 3.55109 14.921 3.36032 14.7803 3.21967C14.6397 3.07902 14.4489 3 14.25 3L11.25 3C10.8358 3 10.5 2.66421 10.5 2.25C10.5 1.83579 10.8358 1.5 11.25 1.5L14.25 1.5C14.8467 1.5 15.419 1.73705 15.841 2.15901C16.2629 2.58096 16.5 3.15326 16.5 3.75L16.5 14.25C16.5 14.8467 16.2629 15.419 15.841 15.841C15.419 16.2629 14.8467 16.5 14.25 16.5L11.25 16.5C10.8358 16.5 10.5 16.1642 10.5 15.75Z" fill="" />
@@ -62,8 +63,8 @@ export default function Home({ }) {
               <img src="./images/fall.png" alt="" className="mx-auto" />
             </div>
             <button
-              className="w-full p-4 bg-color1 border border-color1 text-white leading-[0] rounded flex items-center justify-center relative before:duration-500 z-[1] before:content-[attr(before)] before:bg-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[1] before:origin-center-left before:scale-x-0 hover:before:scale-100 hover:before:duration-500 hover:text-color1">
-              <span className="text-base font-medium leading-[100%] z-[2]">
+              className="w-full p-3 xs:p-4 overflow-hidden bg-color1 border border-color1 text-white leading-[0] rounded flex items-center justify-center relative before:duration-500 z-[1] before:content-[attr(before)] before:bg-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[1] before:origin-center-left before:scale-x-0 hover:before:scale-100 hover:before:duration-500 hover:text-color1">
+              <span className="text-sm xs:text-base font-medium leading-[100%] z-[2]">
                 Mua sắm ngay
               </span>
             </button>
@@ -75,4 +76,3 @@ export default function Home({ }) {
   );
 }
 
-// className={`${styles.container}`}
