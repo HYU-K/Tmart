@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function ProductItem() {
     return (
-        <div className={`bg-white ${styles.item_product}`}>
+        <div className={`bg-white rounded sm:rounded-none overflow-hidden ${styles.item_product}`}>
             <Link href={'/product'}>
-                <a href="" title="" className="grid p-2 relative">
+                <a href="" title="" className="group grid p-2 relative">
                     <div className="mb-3 w-full overflow-hidden">
                         <div className="relative transition-all w-full pt-[100%]">
                             <img src="./images/ome2.png" alt=""
@@ -15,11 +15,11 @@ export default function ProductItem() {
                     <div className="">
                         <div className="mb-3 xs:mb-5">
                             <h3
-                                className="title13 text-texth mb-2 font-medium overflow-hidden limit_text_2">
+                                className={`text[13px] text-texth mb-2 font-medium overflow-hidden group-hover:text-red-700 ${styles.limit_text_2}`}>
                                 Táo Dazzle nhập khẩu New Zealand túi 1kg (5-7 trái)</h3>
                             <div className="flex items-center justify-between">
-                                <div className="xs:flex items-center ">
-                                    <h3 className="title13 text-red-700 mr-2 mb-1 xs:mb-0 font-bold">
+                                <div className="xs:flex flex-wrap items-center ">
+                                    <h3 className="text[13px] text-red-700 mr-2 mb-1 xs:mb-0 font-bold">
                                         150.000đ</h3>
                                     <p className="text-xs text-gray-400 mr-2">250.000đ</p>
                                 </div>

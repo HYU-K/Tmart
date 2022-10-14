@@ -26,7 +26,7 @@ export default function NewsHome() {
 
     return (
         <>
-            <div className="bg-white p-4 mb-5">
+            <div className="bg-white p-4 mb-5 hidden xs:block">
                 <h2 className="title16 uppercase text-texth font-medium mb-4">MẸO HAY TRONG GIA ĐÌNH</h2>
                 <div className="flex flex-wrap mx-[-10px]">
                     <div className="w-full mb-5 sm:mb-0 sm:w-3/5 px-[10px]">

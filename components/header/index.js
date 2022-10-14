@@ -45,10 +45,10 @@ export default function Header(props) {
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
                                                 href="./khuyenmaihot.html" title="">Khuyến mãi HOT</a>
                                         </li>
-                                        <li className={`group mb-[22px] cursor-pointer w-full relative overflow-hidden ${styles.active}`}>
+                                        <li  id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                                             <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
                                                 href="" title="">Thịt, cá, trứng</a>
-                                            <div className={`pl-3 pt-3 relative w-full hidden ${styles.sub_menu}`}>
+                                            <div id="dropdownDivider" className="pl-3 pt-3 relative w-full hidden">
                                                 <div className="mb-3 min-w-full border-none"><a
                                                         className="text-[13px] text-texth font-medium hover:text-color1"
                                                         href="" title="">Thịt các loại</a></div>
