@@ -20,7 +20,6 @@ export default function Home({}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Link href={'/login'}>buton</Link>
 
       <div className="container">
         <div className="lg:pl-60 w-full pt-2">
