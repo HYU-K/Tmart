@@ -149,7 +149,7 @@ export default function BoxNhomSanPhamKhuyenMai() {
                     </div>
                 </div>
             </div>
-            <div className="flex mb-5 xs:hidden">
+            <a title="" href="" className="flex mb-5 xs:hidden">
                 <div className="min-w-[65px] bg-green-600 grid items-center p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none" className="mx-auto">
                         <path d="M9.51823 15.2198L7.74948 13.4536L13.4995 7.70358L7.74948 1.95357L9.51823 0.194824L17.0307 7.70733L9.51948 15.2198H9.51823ZM2.73698 15.2198L0.969482 13.4536L6.71948 7.70358L0.969482 1.96232L2.73698 0.194824L10.2507 7.70733L2.73823 15.2198H2.73698Z" fill="white" />
@@ -160,7 +160,7 @@ export default function BoxNhomSanPhamKhuyenMai() {
                     </div>
                 </div>
                 <div className="w-full h-full pl-[2px]"><img src="./images/ban-quangcao.png" className="w-full h-full object-cover" /></div>
-            </div>
+            </a>
         </div>
     )
 }

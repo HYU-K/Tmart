@@ -30,7 +30,7 @@ export default function ProductItem() {
                             </div>
                         </div>
                         <button
-                            className="w-full p-0 xs:p-3 border border-white xs:border-color1 text-color1 leading-[0] rounded-sm flex items-center justify-center relative before:duration-500 z-[1]before:content-[attr(before)] before:bg-color1 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[1] before:origin-center-left before:scale-x-0 hover:before:scale-100 hover:before:duration-500 hover:text-white">
+                            className="w-full p-0 xs:p-3 border border-white xs:border-color1 text-color1 leading-[0] rounded-sm flex items-center justify-center relative before:duration-500 z-[1] before:content-[attr(before)] before:bg-color1 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[1] before:origin-center-left before:scale-x-0 hover:before:scale-100 hover:before:duration-500 hover:text-white">
                             <span
                                 className="text-[13px] font-medium uppercase leading-[100%] z-[2]">CHỌN
                                 MUA</span>

@@ -263,8 +263,8 @@ export default function Footer(props) {
                     </div>
                 </div>
                 <div className="fixed bottom-0 left-0 z-[999] w-full h-20 flex items-center bg-white xs:hidden rounded-t-[30px] shadow-xl">
-                    <div className="container">
-                        <ul className="grid gap-7 grid-cols-5 items-center">
+                    <div className="w-full px-2 mx-auto">
+                        <ul className="grid gap-2 grid-cols-5 items-center">
                             <li className="">
                                 <a href="" title="" className="group text-center active">
                                     <div className="">

@@ -4,8 +4,16 @@
 .visible {
   left: 0;
 }
+.lider:before {
+  display: block;
+}
+.lider span {
+  color: black;
+  font-weight: 500;
+}
 .menu_main {
   scrollbar-width: none;
+  max-height: calc(100vh - 56px);
 }
 .menu_main::-webkit-scrollbar {
   display: none;
@@ -29,8 +37,8 @@
   animation: animationPlay infinite 1s linear;
 }
 .gradient {
-        background: linear-gradient(180deg, #F8F199 0%, #6FCF97 100%);
-    }
+  background: linear-gradient(180deg, #f8f199 0%, #6fcf97 100%);
+}
 @keyframes animationPlay {
   0% {
     transform: scale(1);

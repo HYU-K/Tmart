@@ -24,7 +24,7 @@ export default function Header(props) {
                                 </div>
                             </div>
                             <div
-                                className={`lg:h-fit lg:max-h-[calc(100vh - 56px)] scrollbar-none overflow-y-scroll fixed top-0 right-full max-w-xs h-full z-50 bg-slate-50 p-4 w-full lg:absolute lg:top-full lg:left-0 lg:max-w-none border border-white lg:border-gray-300 ${styles.menu_main}`}>
+                                className={`lg:h-fit scrollbar-none overflow-y-scroll fixed top-0 right-full max-w-xs h-full z-50 bg-slate-50 p-4 w-full lg:absolute lg:top-full lg:left-0 lg:max-w-none border border-white lg:border-gray-300 ${styles.menu_main}`}>
                                 <div className="">
                                     <div className="relative flex items-center justify-center lg:hidden">
                                         <div className="my-6">
