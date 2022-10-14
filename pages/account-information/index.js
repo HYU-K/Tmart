@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Link from "next/link";
 
-export default function Home({ }) {
+export default function AccountInformation({ }) {
     return (
         <div id="main" class="overflow-hidden bg-gray-100 pb-20 xs:pb-0">
 

@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation } from "swiper";
 
-export default function BoxNhomSanPhamKhuyenMai() {
+export default function BoxNhomSanPham() {
     var prds = [1, 2, 3, 4, 5, 6, 7, 8];
     return (
         <div className="">
