@@ -52,10 +52,3 @@
 }
 
 
-.checkbox:checked {
-  border: none;
-  background: #333;
-}
-.checkbox:checked + .check-icon {
-  display: flex;
-}
