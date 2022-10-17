@@ -9,7 +9,7 @@ import SliderSanPham from '../../components/modules/slider-san-pham';
 import Link from 'next/link'
 
 
-export default function ListProducts({}) {
+export default function ListProducts({ }) {
   return (
     <div id="main" class="overflow-hidden bg-gray-100 pb-20 xs:pb-0">
       <Head>
@@ -20,20 +20,22 @@ export default function ListProducts({}) {
       <Header />
 
       <div className="container">
-        <div className="lg:pl-60 w-full pt-2">
+        <div className="lg:pl-60 w-full xs:pt-2">
           <div className="sm:mb-4">
-            <SlidePage />
-            <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-8 ${styles.limit_text_1}`}>
-                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
-                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
-                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Khuyến mãi hot</a>
+            <div className="hidden xs:block">
+              <SlidePage />
             </div>
-            <SliderSanPham/>
-            <SliderSanPham/>
-            <SliderSanPham/>
-            <SliderNhomSanPham/>
-            <SliderNhomSanPham/>
-            <SliderNhomSanPham/>
+            <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
+              <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
+              <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
+              <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Khuyến mãi hot</a>
+            </div>
+            <SliderSanPham />
+            <SliderSanPham />
+            <SliderSanPham />
+            <SliderNhomSanPham />
+            <SliderNhomSanPham />
+            <SliderNhomSanPham />
           </div>
           <Footer />
         </div>

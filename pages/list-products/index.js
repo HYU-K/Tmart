@@ -4,10 +4,12 @@ import styles from '../../styles/Home.module.css'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import SlidePage from '../../components/modules/slide-page';
+import ProductItem from "../../components/layouts/product/product-item";
 import Link from 'next/link'
 
 
-export default function ListProducts({}) {
+export default function ListProducts({ }) {
+  var prds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
   return (
     <div id="main" class="overflow-hidden bg-gray-100 pb-20 xs:pb-0">
       <Head>
@@ -20,22 +22,115 @@ export default function ListProducts({}) {
       <div className="container">
         <div className="lg:pl-60 w-full pt-2">
           <div className="sm:mb-4">
-            <SlidePage />
-            <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-8 ${styles.limit_text_1}`}>
-                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
-                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
-                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Hoa quả</a>
+            <div className="xs:hidden">
+              <SlidePage />
+            </div>
+            <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
+              <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
+              <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
+              <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Hoa quả</a>
             </div>
           </div>
-          {/* <div className="w-full p-0 mb-3 lg:p-3 bg-white lg:mb-4">
-            <BoxNhomHang/>
+          <div class=" mb-8" id="">
+            <div class="bg-white flex items-center justify-between flex-wrap relative z-10 px-4 py-2 mb-3">
+              <div class="flex items-center flex-wrap">
+                <h2 class="text-base uppercase text-gray-800 font-medium mr-4 mb-3 xl:mb-0">Rau, củ, trái cây</h2>
+                <div before="" class="flex items-center mb-3 xl:mb-0 z-[1]before:content-[attr(before)] before:w-px before:h-4 before:bg-gray-400 before:mx-3 before:order-3">
+                  <div class="text-blue-500 text-xs order-2">
+                    Táo
+                    Cam, bưởi
+                    Lê
+                    Xoài
+                    Chuối
+                    Khác (Dưa, ổi, bơ,...)
+                  </div>
+                  <select name="" id="" class="bg-transparent	text-blue-500 text-xs pr-2 order-4">
+                    <option value="">Nhóm trái cây</option>
+                    <option value="">Táo</option>
+                    <option value="">Cam</option>
+                    <option value="">Xoài</option>
+                    <option value="">Chuối</option>
+                  </select>
+                </div>
+              </div>
+              <div class="p-1 border border-gray-400 rounded">
+                <select name="" id="" class="bg-transparent	text-blue-600 text-[13px] pr-2">
+                  <option value="">Sản phẩm liên quan</option>
+                  <option value="">Táo</option>
+                  <option value="">Cam</option>
+                  <option value="">Xoài</option>
+                  <option value="">Chuối</option>
+                </select>
+              </div>
+            </div>
+            <div class="">
+              <div class="bg-white mb-5">
+                <div class="w-full grid gap-[1px] grid-cols-2 xs:grid-cols-3 xl:grid-cols-4 bg-gray-300">
+                  {
+                    prds.map((item, index) => (
+                      <ProductItem />
+                    ))
+                  }
+                </div>
+              </div>
+              <div class="products_description text-texth relative max-h-96 overflow-hidden bg-white p-4 xs:p-5 sm:p-8">
+                <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng Đệm lunarlon
+                  mềm và vững chắc Cấu trúc form giày Flywire Công nghệ Flymesh siêu nhẹ và thoáng khí Cấu
+                  trúc lưới nhẹ, đa lớp sử dụng vật liệu lót tối thiểu để giảm độ cứng gót chân</p>
+                <p>Giày Nike Air Zoom Pegasus 36 được sản xuất từ chất liệu vải thể
+                  thao chuyên dụng cùng công nghệ tiên tiến, hỗ trợ tối ưu mọi vận động.</p>
+                <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
+                  người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
+                <p>Đệm lunarlon mềm và vững chắc.</p>
+                <p>Cấu trúc form giày Flywire.</p>
+                <p>Công nghệ Flymesh siêu nhẹ và thoáng khí.</p>
+                <p>Cấu trúc lưới nhẹ, đa lớp sử dụng vật liệu lót tối thiểu để giảm độ
+                  cứng gót chân.</p>
+                <p>Logo Nike được bố trí nổi bật trên sản phẩm kết hợp màu sắc ấn
+                  tượng, phong cách hiện đại sẽ góp phần khẳng định phong cách thời trang của bạn.
+                </p>
+                <p>Nike là nhà cung cấp trang phục và dụng cụ thể thao thương mại công
+                  cộng hàng đầu trên thế giới, có trụ sở tại Hoa Kỳ. Cho đến nay, các sản phẩm của
+                  Nike đang được hàng loạt vận động viên xuất sắc, những người nổi tiếng tin tưởng và
+                  lựa chọn.</p>
+                <p>Giày Nike Air Zoom Pegasus 36 được sản xuất từ chất liệu vải thể
+                  thao chuyên dụng cùng công nghệ tiên tiến, hỗ trợ tối ưu mọi vận động.</p>
+                <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
+                  người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
+                <p>Giày Nike Air Zoom Pegasus 36 được sản xuất từ chất liệu vải thể
+                  thao chuyên dụng cùng công nghệ tiên tiến, hỗ trợ tối ưu mọi vận động.</p>
+                <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
+                  người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
+                <p>Đệm lunarlon mềm và vững chắc.</p>
+                <p>Cấu trúc form giày Flywire.</p>
+                <p>Công nghệ Flymesh siêu nhẹ và thoáng khí.</p>
+                <p>Cấu trúc lưới nhẹ, đa lớp sử dụng vật liệu lót tối thiểu để giảm độ
+                  cứng gót chân.</p>
+                <p>Logo Nike được bố trí nổi bật trên sản phẩm kết hợp màu sắc ấn
+                  tượng, phong cách hiện đại sẽ góp phần khẳng định phong cách thời trang của bạn.
+                </p>
+                <p>Nike là nhà cung cấp trang phục và dụng cụ thể thao thương mại công
+                  cộng hàng đầu trên thế giới, có trụ sở tại Hoa Kỳ. Cho đến nay, các sản phẩm của
+                  Nike đang được hàng loạt vận động viên xuất sắc, những người nổi tiếng tin tưởng và
+                  lựa chọn.</p>
+                <p>Giày Nike Air Zoom Pegasus 36 được sản xuất từ chất liệu vải thể
+                  thao chuyên dụng cùng công nghệ tiên tiến, hỗ trợ tối ưu mọi vận động.</p>
+                <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
+                  người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
+
+                <div class="click_more absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4">
+                  <button id="btn-more" class="flex items-center justify-center">
+                    <span class="text-[13px] text-green-500 font-medium">Xem thêm</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" class="ml-1 mt-1">
+                      <path d="M9.09742 12.1336L8.15409 11.1916L11.2208 8.12491L8.15409 5.05824L9.09742 4.12024L13.1041 8.12691L9.09809 12.1336H9.09742ZM5.48075 12.1336L4.53809 11.1916L7.60475 8.12491L4.53809 5.06291L5.48075 4.12024L9.48809 8.12691L5.48142 12.1336H5.48075Z"
+                        fill="#00A652" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <BoxNhomSanPhamKhuyenMai/>
-          <BoxNhomSanPham/>
-          <BoxNhomSanPham/>
-          <BoxNhomSanPham/>
-          <NewsHome /> */}
-          
           <Footer />
         </div>
       </div>
