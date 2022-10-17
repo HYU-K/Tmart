@@ -20,9 +20,9 @@ export default function ListProducts({ }) {
       <Header />
 
       <div className="container">
-        <div className="lg:pl-60 w-full pt-2">
+        <div className="lg:pl-60 w-full xs:pt-2">
           <div className="sm:mb-4">
-            <div className="xs:hidden">
+            <div className="hidden xs:block">
               <SlidePage />
             </div>
             <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
@@ -32,36 +32,50 @@ export default function ListProducts({ }) {
             </div>
           </div>
           <div class=" mb-8" id="">
-            <div class="bg-white flex items-center justify-between flex-wrap relative z-10 px-4 py-2 mb-3">
-              <div class="flex items-center flex-wrap">
-                <h2 class="text-base uppercase text-gray-800 font-medium mr-4 mb-3 xl:mb-0">Rau, củ, trái cây</h2>
-                <div before="" class="flex items-center mb-3 xl:mb-0 z-[1]before:content-[attr(before)] before:w-px before:h-4 before:bg-gray-400 before:mx-3 before:order-3">
-                  <div class="text-blue-500 text-xs order-2">
-                    Táo
-                    Cam, bưởi
-                    Lê
-                    Xoài
-                    Chuối
-                    Khác (Dưa, ổi, bơ,...)
+            <div class="sm:h-14 bg-white z-10 px-2 xs:px-4 sm:mb-3 relative overflow-hidden before:content-[attr(before)] before:w-full before:h-[2px] before:bg-red-600 before:absolute before:top-[12px] before:left-0 sm:before:hidden">
+              <div class="sm:h-14 sm:leading-14 w-full sm:w-auto flex items-center flex-wrap float-left">
+                <div className='w-full sm:w-auto '>
+                  <div
+                    className="flex items-center justify-between relative w-fit mx-auto mb-3 z-10 px-8 xs:px-12 py-2 sm:bolck sm:m-0 sm:p-0">
+                    <div className="w-8 h-8 sm:hidden">
+                      <img src="./images/icon/set.png" alt="" className="min-w-[30px] w-full" />
+                    </div>
+                    <h2 class="text-base text-white sm:text-gray-800 text-center md:text-left font-medium uppercase sm:mr-1 xl:mr-4">Rau, củ, trái cây</h2>
+                    <div className="w-8 h-8 sm:hidden">
+                      <img src="./images/icon/set1.png" alt="" className="min-w-[30px] w-full" />
+                    </div>
+                    <div className="w-full h-full absolute top-0 left-1/2 -translate-x-1/2 overflow-auto -z-10 sm:hidden">
+                      <img src="./images/bg-title.png" alt="" className="w-full h-full" />
+                    </div>
                   </div>
-                  <select name="" id="" class="bg-transparent	text-blue-500 text-xs pr-2 order-4">
-                    <option value="">Nhóm trái cây</option>
-                    <option value="">Táo</option>
-                    <option value="">Cam</option>
-                    <option value="">Xoài</option>
-                    <option value="">Chuối</option>
-                  </select>
                 </div>
               </div>
-              <div class="p-1 border border-gray-400 rounded">
-                <select name="" id="" class="bg-transparent	text-blue-600 text-[13px] pr-2">
-                  <option value="">Sản phẩm liên quan</option>
+              <div before="" class="sm:h-14 sm:leading-14 flex items-center mb-3 sm:mb-0 float-left z-[1]before:content-[attr(before)] before:w-px before:h-4 before:bg-gray-400 before:mx-3 before:order-3 before:hidden sm:before:block">
+                <div class="text-blue-500 text-xs order-2 hidden xl:block">
+                  Táo
+                  Cam, bưởi
+                  Lê
+                  Xoài
+                  Chuối
+                  Khác (Dưa, ổi, bơ,...)
+                </div>
+                <select name="" id="" class="bg-transparent	text-blue-500 text-xs pr-2 order-4">
+                  <option value="">Nhóm trái cây</option>
                   <option value="">Táo</option>
                   <option value="">Cam</option>
                   <option value="">Xoài</option>
                   <option value="">Chuối</option>
                 </select>
               </div>
+              <div class="mb-5 sm:mb-0 sm:h-14 sm:leading-14 flex items-center float-right">
+                  <select name="" id="" class="h-8 leading-8 border border-gray-400 rounded bg-transparent xs:p-1	text-blue-600 text-xs xs:text-[13px] pr-2">
+                    <option value="">Sản phẩm liên quan</option>
+                    <option value="">Táo</option>
+                    <option value="">Cam</option>
+                    <option value="">Xoài</option>
+                    <option value="">Chuối</option>
+                  </select>
+                </div>
             </div>
             <div class="">
               <div class="bg-white mb-5">
@@ -73,7 +87,7 @@ export default function ListProducts({ }) {
                   }
                 </div>
               </div>
-              <div class="products_description text-texth relative max-h-96 overflow-hidden bg-white p-4 xs:p-5 sm:p-8">
+              <div class={`text-texth relative max-h-96 overflow-hidden bg-white p-4 xs:p-5 sm:p-8 ${styles.products_description}`}>
                 <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng Đệm lunarlon
                   mềm và vững chắc Cấu trúc form giày Flywire Công nghệ Flymesh siêu nhẹ và thoáng khí Cấu
                   trúc lưới nhẹ, đa lớp sử dụng vật liệu lót tối thiểu để giảm độ cứng gót chân</p>
@@ -118,7 +132,7 @@ export default function ListProducts({ }) {
                 <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
                   người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
 
-                <div class="click_more absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4">
+                <div class={`absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4 ${styles.click_more}`}>
                   <button id="btn-more" class="flex items-center justify-center">
                     <span class="text-[13px] text-green-500 font-medium">Xem thêm</span>
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none"

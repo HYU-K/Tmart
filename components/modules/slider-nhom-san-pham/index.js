@@ -18,13 +18,13 @@ export default function SliderNhomSanPham() {
         <div className="">
             <div className="bg-white relative overflow-hidden before:content-[attr(before)] before:w-full before:h-[2px] before:bg-red-600 before:absolute before:top-[12px] before:left-0 before:sm:hidden z-10 mb-5 sm:mb-8">
                 <div
-                    className="flex items-center justify-between relative w-fit mx-auto mb-4 sm:mb-0 sm:w-full z-10 px-12 sm:px-4 py-2 sm:bg-gray-200">
+                    className="flex items-center justify-between relative w-fit mx-auto mb-4 sm:mb-0 sm:w-full z-10 px-8 xs:px-12 sm:px-4 py-2 sm:bg-gray-200">
                     <div className="w-8 h-8 sm:hidden">
-                        <img src="./images/icon/set.png" alt="" className="w-full" />
+                        <img src="./images/icon/set.png" alt="" className="min-w-[30px] w-full" />
                     </div>
                     <h2 className="text-base uppercase text-center sm:text-left text-white sm:text-texth font-medium">THỊT, CÁ, TRỨNG, HẢI SẢN</h2>
                     <div className="w-8 h-8 sm:hidden">
-                        <img src="./images/icon/set1.png" alt="" className="w-full" />
+                        <img src="./images/icon/set1.png" alt="" className="min-w-[30px] w-full" />
                     </div>
                     <div className="w-full h-full absolute top-0 left-1/2 -translate-x-1/2 overflow-auto -z-10 sm:hidden">
                         <img src="./images/bg-title.png" alt="" className="w-full h-full" />
