@@ -143,7 +143,7 @@ export default function SliderNhomSanPham() {
                                         },
                                     }}
 
-                                    slidesPerView={5}
+                                    slidesPerView={4}
                                     spaceBetween={1}
                                     slidesPerGroup={1}
                                     loop={true}

@@ -54,10 +54,12 @@ export default function Header(props) {
                     </li>
                     <li id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
                       className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
-                      <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                        href="" title="">
-                        Thịt, cá, trứng
-                      </a>
+                      <Link href={"/list-products"}>
+                        <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
+                          href="" title="">
+                          Thịt, cá, trứng
+                        </a>
+                      </Link>
                       <div id="dropdownDivider" className="pl-3 pt-3 relative w-full hidden">
                         <div className="mb-3 min-w-full border-none">
                           <a className="text-[13px] text-texth font-medium hover:text-color1" href="" title="">
@@ -110,16 +112,20 @@ export default function Header(props) {
                       </div>
                     </li>
                     <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
-                      <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                        href="" title="">
-                        Rau, củ, quả
-                      </a>
+                      <Link href={"/list-products"}>
+                        <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
+                          href="" title="">
+                          Rau, củ, quả
+                        </a>
+                      </Link>
                     </li>
                     <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
-                      <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
-                        href="" title="">
-                        Gạo, bột, đồ khô
-                      </a>
+                      <Link href={"/list-products"}>
+                        <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
+                          href="" title="">
+                          Gạo, bột, đồ khô
+                        </a>
+                      </Link>
                     </li>
                     <li className="group mb-[22px] cursor-pointer w-full relative overflow-hidden">
                       <a className="text_link uppercase w-full max-w-fit relative text-sm text-texth font-medium group-hover:text-color1"
