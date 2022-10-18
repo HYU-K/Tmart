@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import styles from '../../../styles/Home.module.css'
 
 export default function NewsHome() {
@@ -55,15 +56,17 @@ export default function NewsHome() {
                         <div className="">
                             {indents}
                         </div>
-                        <a href="" title="" className="flex items-center">
-                            <span className="title13 text-blue-500">Xem các tin bài khác</span>
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" className="ml-1 mt-1">
-                                <path
-                                    d="M9.09742 12.1336L8.15409 11.1916L11.2208 8.12491L8.15409 5.05824L9.09742 4.12024L13.1041 8.12691L9.09809 12.1336H9.09742ZM5.48075 12.1336L4.53809 11.1916L7.60475 8.12491L4.53809 5.06291L5.48075 4.12024L9.48809 8.12691L5.48142 12.1336H5.48075Z"
-                                    fill="#2F80ED" />
-                            </svg>
-                        </a>
+                        <Link href={'/news'}>
+                            <a href="" title="" className="flex items-center">
+                                <span className="title13 text-blue-500">Xem các tin bài khác</span>
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" className="ml-1 mt-1">
+                                    <path
+                                        d="M9.09742 12.1336L8.15409 11.1916L11.2208 8.12491L8.15409 5.05824L9.09742 4.12024L13.1041 8.12691L9.09809 12.1336H9.09742ZM5.48075 12.1336L4.53809 11.1916L7.60475 8.12491L4.53809 5.06291L5.48075 4.12024L9.48809 8.12691L5.48142 12.1336H5.48075Z"
+                                        fill="#2F80ED" />
+                                </svg>
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>

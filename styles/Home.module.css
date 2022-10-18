@@ -33,6 +33,11 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+.limit_text_4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
 .play_video::before {
   animation: animationPlay infinite 1s linear;
 }
@@ -60,3 +65,9 @@
   }
 }
 
+@media screen and (max-width: 575px) {
+  .limit_text_4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+  }
+}

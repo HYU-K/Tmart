@@ -7,8 +7,9 @@ export default function BoxNhoNewsHomemHang() {
         indents.push(
             <>
                 <a href="" title="" className="border border-red-300 p-1 rounded-md sm:border-0 sm:p-0">
-                    <div className="mb-2 flex items-center justify-center w-1/2 m-auto sm:w-full"><img
-                        src="../images/sp.png" alt="" className="m-auto" /></div>
+                    <div className="mb-2 flex items-center justify-center w-1/2 m-auto sm:w-full">
+                        <img src="../images/sp.png" alt="" className="m-auto" />
+                    </div>
                     <div className={`text-black text-xs font-medium title11 sm:text-[13px] text-center overflow-hidden ${styles.limit_text_2}`}>Thịt heo các loại
                     </div>
                 </a>
