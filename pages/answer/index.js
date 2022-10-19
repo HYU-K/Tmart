@@ -51,12 +51,6 @@ export default function Answer({ }) {
             <div className="container">
                 <div className="lg:flex lg:gap-6 mb-8">
                     <div className="min-w-[260px] overflow-hidden hidden lg:block">
-                        {/* <div className="w-full bg-white rounded overflow-hidden mb-3 p-3 hidden lg:block">
-                            <a href="" title="" className="group flex items-center">
-                                <div className="mr-3 min-w-[37px]"><img src="../images/icon/user_circle.png" alt="" className="" /></div>
-                                <span className="text-texth text-base font-medium group-hover:text-red-500">Đăng ký/Đăng nhập</span>
-                            </a>
-                        </div> */}
                         <div className="w-full bg-white border border-gray-300 overflow-hidden p-3 xs:px-6 xs:py-4 h-full">
                             <h3 className="text-lg font-medium text-black mb-5">HỎI ĐÁP THEO CHỦ ĐỀ</h3>
                             <ul className="">
@@ -106,9 +100,17 @@ export default function Answer({ }) {
                         </div>
                     </div>
                     <div className="w-full overflow-hidden mb-5 lg:mb-0">
-                        <div class={`overflow-hidden my-4 sm:my-5 ${styles.limit_text_1}`}>
-                            <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Hỏi đáp</a>
-                            <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Mua hàng, giao hàng</a>
+                        <div className="flex items-center justify-between flex-wrap">
+                            <div class={`overflow-hidden my-4 sm:my-5 ${styles.limit_text_1}`}>
+                                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Hỏi đáp</a>
+                                <a before="" href="" title="" class="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Mua hàng, giao hàng</a>
+                            </div>
+                            <div className="hidden sm:block">
+                                <a href="" title="" className="group flex items-center">
+                                    <div className="mr-3 max-w-[28px]"><img src="../images/icon/user_circle.png" alt="" className="" /></div>
+                                    <span className="text-texth text-sm font-medium group-hover:text-red-500">Đăng ký/Đăng nhập</span>
+                                </a>
+                            </div>
                         </div>
                         <div className="bg-white px-3 py-4 rounded overflow-hidden sm:flex items-center gap-2 mb-7">
                             <div className="w-full mb-3 sm:mb-0">
