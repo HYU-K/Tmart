@@ -10,7 +10,7 @@ export default function Answer({ }) {
     for (var i = 0; i < 7; i++) {
         posts.push(
             <>
-                <div className="w-full bg-white rounded overflow-hidden px-4 mb-5">
+                <div className="w-full bg-white rounded overflow-hidden px-4 mb-5 last:mb-0">
                     <div className="py-4 flex items-center gap-6 sm:gap-8 border-b border-gray-100 relative before:content-[attr(before)] before:absolute before:top-0 before:-left-4 before:w-[2px] before:h-full before:bg-red-500">
                         <div className="w-fit">
                             <h1 className="text-xl sm:text-2xl uppercase font-bold text-red-500">Hỏi</h1>
