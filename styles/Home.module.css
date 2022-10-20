@@ -41,6 +41,9 @@
 .play_video::before {
   animation: animationPlay infinite 1s linear;
 }
+.bg_li_blue {
+  background: linear-gradient(180deg, rgba(0, 166, 82, 0.015) 0%, rgba(0, 166, 82, 0.09) 60.94%, rgba(255, 255, 255, 0) 100%);
+}
 .gradient {
   background: linear-gradient(180deg, #f8f199 0%, #6fcf97 100%);
 }

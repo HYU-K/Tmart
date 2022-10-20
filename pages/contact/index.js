@@ -18,13 +18,83 @@ export default function Contact({ }) {
             </div>
 
             <div className="container">
-                <div className="lg:flex lg:gap-6 mb-8">
-                    <div className="min-w-[260px] overflow-hidden hidden lg:block">
+                <div className="flex flex-wrap lg:flex-nowrap gap-8 xl:gap-14 my-6 lg:my-10 pb-3">
+                    <div className="w-full lg:max-w-2/5 overflow-hidden">
+                        <div className="">
+                            <h2 className="mb-4 text-lg text-texth uppercase font-medium pl-4 relative before:content-[attr(before)] before:bg-red-500 before:absolute before:top-1/2 before:left-0 before:w-[3px] before:h-4/5 before:transform before:-translate-y-1/2">T-MART XIN HÂN HẠNH ĐƯỢC HỖ TRỢ QUÝ KHÁCH</h2>
+                            <div className="mb-3 lg:mb-5">
+                                <textarea name="" id="" placeholder="Nội dung (mô tả chi tiết)" className="w-full text-sm border border-gray-300 rounded-sm pt-3 pl-4 text-gray-300 focus:text-black focus:outline-none overflow-hidden" rows="4"></textarea>
+                            </div>
+                            <div className="flex gap-8 sm:gap-12 mb-3 lg:mb-5">
+                                <div class="flex items-center">
+                                    <input class="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                    <label class="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault1">
+                                        Anh
+                                    </label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input class="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                    <label class="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault2">
+                                        Chị
+                                    </label>
+                                </div>
+                            </div>
+                            <div className="">
+                                <input type="text"
+                                    className="rounded pl-3 mb-3 focus:outline-none border border-gray-200 placeholder-gray-300 text-black text-sm w-full h-11 xs:h-[50px]"
+                                    placeholder="Họ - tên*" id="typemsg" />
+                                <input type="text"
+                                    className="rounded pl-3 mb-3 focus:outline-none border border-gray-200 placeholder-gray-300 text-black text-sm w-full h-11 xs:h-[50px]"
+                                    placeholder="Số điện thoại*" id="typemsg" />
+                                <input type="text"
+                                    className="rounded pl-3 mb-3 focus:outline-none border border-gray-200 placeholder-gray-300 text-black text-sm w-full h-11 xs:h-[50px]"
+                                    placeholder="Email (không bắt buộc)" id="typemsg" />
+                            </div>
+                            <button
+                                className="w-full h-11 xs:h-[50px] overflow-hidden bg-color1 border border-color1 text-white leading-[0] rounded flex items-center justify-center relative before:duration-500 z-[1] before:content-[attr(before)] before:bg-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[1] before:origin-center-left before:scale-x-0 hover:before:scale-100 hover:before:duration-500 hover:text-color1">
+                                <span className="text-sm font-medium leading-[100%] z-[2]">
+                                    GỬI GÓP Ý
+                                </span>
+                            </button>
+                        </div>
                     </div>
-                    <div className="w-full overflow-hidden mb-5 lg:mb-0">
+                    <div className="w-full lg:max-w-3/5 overflow-hidden">
+                        <h2 className="mb-5 text-lg text-texth uppercase font-medium">THÔNG TIN LIÊN HỆ KHÁC</h2>
+                        <p className="text-sm text-texth mb-5 sm:mb-7">Tìm siêu thị T-MART? Xin mời ghé thăm trang <a href="" title="" className="text-sm text-green-500">Tìm siêu thị</a> để xem bản đồ và địa chỉ các siêu thị trên toàn quốc.</p>
+                        <div className="flex flex-wrap sm:flex-nowrap gap-7">
+                            <div className="w-full">
+                                <h2 className="mb-3 text-lg text-texth uppercase font-medium">THÔNG TIN CÔNG TY</h2>
+                                <h2 className="mb-5 text-lg xs:text-xl text-red-500 font-medium">Công ty Cổ phần T-MARTSTORES</h2>
+                                <ul className="">
+                                    <li className="flex mb-3.5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 24 25" fill="none" className="mt-[-3px] mr-2 min-w-[20px]">
+                                            <path d="M12 21.761C10.7369 20.6837 9.56619 19.5026 8.5 18.23C6.9 16.319 5 13.473 5 10.761C4.99858 7.92858 6.70425 5.37443 9.32107 4.29043C11.9379 3.20644 14.9501 3.80628 16.952 5.81004C18.2685 7.12064 19.0059 8.90343 19 10.761C19 13.473 17.1 16.319 15.5 18.23C14.4338 19.5026 13.2631 20.6837 12 21.761ZM12 5.76104C9.23995 5.76434 7.00331 8.00098 7 10.761C7 11.927 7.527 13.946 10.035 16.947C10.6531 17.6851 11.309 18.3907 12 19.061C12.691 18.3915 13.3472 17.6869 13.966 16.95C16.473 13.945 17 11.926 17 10.761C16.9967 8.00098 14.7601 5.76434 12 5.76104ZM12 13.761C10.3431 13.761 9 12.4179 9 10.761C9 9.10418 10.3431 7.76104 12 7.76104C13.6569 7.76104 15 9.10418 15 10.761C15 11.5567 14.6839 12.3197 14.1213 12.8824C13.5587 13.445 12.7957 13.761 12 13.761Z" fill="#4F4F4F" />
+                                        </svg>
+                                        <a href="" title="" className="text-sm text-texth">Số 6 Biệt thự 2, bán đảo Linh Đàm, Phường Hoàng Liệt, Quận Hoàng Mai, Thành phố Hà Nội, Việt Nam</a>
+                                    </li>
+                                    <li className="flex mb-3.5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none" className="mr-2 min-w-[20px]">
+                                            <path d="M9.61812 9.26978C8.54499 10.1816 8.15173 11.8446 9.07835 13.1787C9.94546 14.4271 11.0377 15.5192 12.2859 16.3859C13.62 17.3123 15.2829 16.919 16.1947 15.8458L16.2048 15.8505C17.3694 16.39 18.6064 16.7597 19.876 16.9482V19.5879L19.8749 19.5879L19.872 19.5879C11.8975 19.5992 5.86745 13.499 5.87599 5.59148V5.58789H8.51535L8.51552 5.58906C8.70397 6.85854 9.07358 8.09443 9.61311 9.25897L9.61812 9.26978ZM19.8749 21.5879H20.876C21.4283 21.5879 21.876 21.1402 21.876 20.5879V16.0856C21.876 15.59 21.513 15.1692 21.0228 15.0964L20.1686 14.9697C19.0883 14.8093 18.0365 14.4948 17.0455 14.0357L16.2926 13.687C15.8563 13.4849 15.338 13.6219 15.0586 14.0131L14.7177 14.4903C14.419 14.9085 13.8488 15.0363 13.4266 14.7431C12.3743 14.0124 11.452 13.0903 10.721 12.0378C10.4278 11.6156 10.5555 11.0453 10.9738 10.7466L11.4507 10.406C11.8421 10.1265 11.9791 9.6081 11.7769 9.17179L11.4278 8.41822C10.9687 7.42729 10.6542 6.37564 10.4938 5.29538L10.367 4.44105C10.2942 3.95085 9.87343 3.58789 9.37785 3.58789H4.87599C4.3237 3.58789 3.87599 4.03561 3.87599 4.58789V5.58932C3.86627 14.5958 10.7862 21.6008 19.8749 21.5879Z" fill="#4F4F4F" />
+                                        </svg>
+                                        <a href="" title="" className="text-sm text-texth">024.73006446</a>
+                                    </li>
+                                    <li className="flex mb-3.5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none" className="mr-2 min-w-[20px]">
+                                            <path d="M16.6667 17.382H3.33341C2.41294 17.382 1.66675 16.6358 1.66675 15.7154V5.64287C1.70559 4.75083 2.44053 4.04786 3.33341 4.04871H16.6667C17.5872 4.04871 18.3334 4.7949 18.3334 5.71537V15.7154C18.3334 16.6358 17.5872 17.382 16.6667 17.382ZM3.33341 7.27204V15.7154H16.6667V7.27204L10.0001 11.7154L3.33341 7.27204ZM4.00008 5.71537L10.0001 9.71537L16.0001 5.71537H4.00008Z" fill="#4F4F4F" />
+                                        </svg>
+                                        <a href="" title="" className="text-sm text-texth">info@tmart.vn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="min-w-full h-48 sm:min-w-[220px] sm:h-64 xl:min-w-[270px] xl:h-80">
+                                <img src="./images/map.png" alt="" className="w-full h-full object-cover" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className="bg-white p-5 mb-7">
+            </div>
+            <div className="sm:container">
+                <div className="bg-white p-4 sm:p-5 mb-7">
                     <div className="flex items-center justify-between flex-wrap">
                         <div className="flex items-center mb-5">
                             <h3 className="text-texth text-sm font-medium">Hỏi đáp về chương trình</h3>
@@ -118,6 +188,8 @@ export default function Contact({ }) {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="container">
                 <Footer />
             </div>
         </div>

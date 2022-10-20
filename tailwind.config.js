@@ -48,6 +48,9 @@ module.exports = {
       },
       screens: {
       },
+      boxShadow: {
+        '3xl': '0px 4px 44px rgb(0 0 0 / 8%)',
+      },
       transitionDuration: {
         '0': '0ms',
         '2000': '2000ms',
