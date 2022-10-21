@@ -136,7 +136,7 @@ export default function BoxNhomSanPhamKhuyenMai() {
                         </div>
                         <div className="flex items-center justify-center py-3 bg-white rounded sm:rounded-none overflow-hidden">
                             <a href="" title="" className="flex items-center justify-center">
-                                <span className="text[13px] mr-2 text-green-500 sm:text-blue-400 font-medium">Xem thêm 3.500 sản phẩm</span>
+                                <span className="text-[13px] mr-2 text-green-500 sm:text-blue-400 font-medium">Xem thêm 3.500 sản phẩm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" className="text-green-500 sm:text-blue-400" viewBox="0 0 15 14"
                                     fill="currentColor">
                                     <rect width="14" height="14" transform="translate(0.180664)" fill="currentColor" />

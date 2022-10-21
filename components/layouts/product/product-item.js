@@ -15,11 +15,11 @@ export default function ProductItem() {
                     <div className="">
                         <div className="mb-3 xs:mb-5">
                             <h3
-                                className={`text[13px] text-texth mb-2 font-medium overflow-hidden group-hover:text-red-700 ${styles.limit_text_2}`}>
+                                className={`text-[13px] text-texth mb-2 font-medium overflow-hidden group-hover:text-red-700 ${styles.limit_text_2}`}>
                                 Táo Dazzle nhập khẩu New Zealand túi 1kg (5-7 trái)</h3>
                             <div className="flex items-center justify-between">
                                 <div className="xs:flex flex-wrap items-center ">
-                                    <h3 className="text[13px] text-red-700 mr-2 mb-1 xs:mb-0 font-bold">
+                                    <h3 className="text-[13px] text-red-700 mr-2 mb-1 xs:mb-0 font-bold">
                                         150.000đ</h3>
                                     <p className="text-xs text-gray-400 mr-2">250.000đ</p>
                                 </div>
