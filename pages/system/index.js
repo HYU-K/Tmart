@@ -108,7 +108,7 @@ export default function System({ }) {
                     </div>
                     <div className="w-full lg:max-w-1/4 overflow-hidden">
                         <div className="w-full bg-white overflow-hidden mb-2.5 p-4 sm:p-5 ">
-                            <div className="grid grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-3 gap-y-5">
+                            <div className="grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-2 xl:grid-cols-3 gap-x-3 gap-y-5">
                                 <a href="" title="" className="">
                                     <div className="border border-gray-300 rounded overflow-hidden w-full h-28 flex items-center justify-center mb-2.5 p-1">
                                         <img src="./images/Frame.png" alt="" />
