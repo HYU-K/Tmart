@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer(props) {
 
     return (
@@ -99,9 +101,11 @@ export default function Footer(props) {
                                             fill="#00A652" />
                                     </svg>
                                 </div>
-                                <div className="pl-2 text-sm font-bold text-green-500">
+                                <Link href={'/system'}>
+                                <div className="pl-2 text-sm font-bold text-green-500 cursor-pointer">
                                     Hệ thống 1.740 cửa hàng T-Mart
                                 </div>
+                                </Link>
                             </div>
                         </div>
                         <div className="flex flex-wrap mx-[-10px]">
@@ -125,33 +129,6 @@ export default function Footer(props) {
                                                     <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
-                                            <a href="./contact.html" title="" className="">Liên hệ</a>
-                                        </div>
-                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
-                                            <div className="mr-2 mt-2 max-w-[6px]">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
-                                                </svg>
-                                            </div>
-                                            <a href="" title="" className="">Quy chế hoạt động</a>
-                                        </div>
-                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
-                                            <div className="mr-2 mt-2 max-w-[6px]">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
-                                                </svg>
-                                            </div>
-                                            <a href="./question.html" title="" className="">Hỏi đáp</a>
-                                        </div>
-                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
-                                            <div className="mr-2 mt-2 max-w-[6px]">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
-                                                </svg>
-                                            </div>
                                             <a href="" title="" className="">Chính sách khách hàng</a>
                                         </div>
                                         <div className="text-blue-500 mb-3 text-[13px] flex items-start">
@@ -161,7 +138,7 @@ export default function Footer(props) {
                                                     <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
-                                            <a href="" title="" className="">Chính sách giao hàng</a>
+                                            <a href="" title="" className="">Chính sách đổi trả</a>
                                         </div>
                                         <div className="text-blue-500 mb-3 text-[13px] flex items-start">
                                             <div className="mr-2 mt-2 max-w-[6px]">
@@ -170,25 +147,9 @@ export default function Footer(props) {
                                                     <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
-                                            <a href="./about.html" title="" className="">Giới thiệu</a>
-                                        </div>
-                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
-                                            <div className="mr-2 mt-2 max-w-[6px]">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
-                                                </svg>
-                                            </div>
-                                            <a href="" title="" className="">Quy chế hoạt động</a>
-                                        </div>
-                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
-                                            <div className="mr-2 mt-2 max-w-[6px]">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
-                                                </svg>
-                                            </div>
-                                            <a href="" title="" className="">Chính sách khách hàng</a>
+                                            <Link href={'/contact'}>
+                                            <a href="" title="" className="">Liên hệ</a>
+                                            </Link>
                                         </div>
                                         <div className="text-blue-500 mb-3 text-[13px] flex items-start">
                                             <div className="mr-2 mt-2 max-w-[6px]">
@@ -206,7 +167,47 @@ export default function Footer(props) {
                                                     <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
+                                            <a href="" title="" className="">Hướng dẫn mua hàng</a>
+                                        </div>
+                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
+                                            <div className="mr-2 mt-2 max-w-[6px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                </svg>
+                                            </div>
+                                            <a href="" title="" className="">Quy chế hoạt động</a>
+                                        </div>
+                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
+                                            <div className="mr-2 mt-2 max-w-[6px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                </svg>
+                                            </div>
+                                            <Link href={'/introduce'}>
                                             <a href="" title="" className="">Giới thiệu công ty</a>
+                                            </Link>
+                                        </div>
+                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
+                                            <div className="mr-2 mt-2 max-w-[6px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                </svg>
+                                            </div>
+                                            <a href="" title="" className="">Cần thuê mặt bằng</a>
+                                        </div>
+                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
+                                            <div className="mr-2 mt-2 max-w-[6px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                </svg>
+                                            </div>
+                                            <Link href={'/answer'}>
+                                            <a href="" title="" className="">Hỏi đáp</a>
+                                            </Link>
                                         </div>
                                         <div className="text-blue-500 mb-3 text-[13px] flex items-start">
                                             <div className="mr-2 mt-2 max-w-[6px]">
@@ -216,6 +217,15 @@ export default function Footer(props) {
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Tuyển dụng</a>
+                                        </div>
+                                        <div className="text-blue-500 mb-3 text-[13px] flex items-start">
+                                            <div className="mr-2 mt-2 max-w-[6px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                    fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                </svg>
+                                            </div>
+                                            <a href="" title="" className="">Tích điểm Quà tặng VIP</a>
                                         </div>
                                     </div>
                                 </div>
