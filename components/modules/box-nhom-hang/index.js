@@ -10,7 +10,7 @@ export default function BoxNhoNewsHomemHang() {
                     <div className="mb-2 flex items-center justify-center w-1/2 m-auto sm:w-full">
                         <img src="../images/sp.png" alt="" className="m-auto" />
                     </div>
-                    <div className={`text-black text-xs font-medium title11 sm:text-[13px] text-center overflow-hidden ${styles.limit_text_2}`}>Thịt heo các loại
+                    <div className={`text-black text-xs font-medium text-[11px] sm:text-[13px] text-center overflow-hidden ${styles.limit_text_2}`}>Thịt heo các loại
                     </div>
                 </a>
             </>
@@ -20,7 +20,7 @@ export default function BoxNhoNewsHomemHang() {
     return (
         <>
             <div className="mb-4">
-                <h2 className="font-bold text-black hidden sm:block">Nhóm hàng thường mua</h2>
+                <h2 className="font-bold text-black text-sm hidden sm:block">Nhóm hàng thường mua</h2>
             </div>
             <div className="grid gap-2 sm:gap-4 xl:gap-6 grid-cols-5 xl:grid-cols-10">
                 {indents}

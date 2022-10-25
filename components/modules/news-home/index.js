@@ -16,7 +16,7 @@ export default function NewsHome() {
                         </div>
                     </div>
                     <div className={`w-full pl-4  overflow-hidden ${styles.limit_text_2}`}>
-                        <p className="title13 text-texth hover:text-color1">Dạy trẻ 5 thói quen sau để phòng
+                        <p className="text-[13px] text-texth hover:text-color1">Dạy trẻ 5 thói quen sau để phòng
                             bệnh trong mùa tựu trường
                         </p>
                     </div>
@@ -28,7 +28,7 @@ export default function NewsHome() {
     return (
         <>
             <div className="bg-white p-4 mb-5 hidden xs:block">
-                <h2 className="title16 uppercase text-texth font-medium mb-4">MẸO HAY TRONG GIA ĐÌNH</h2>
+                <h2 className="text-base uppercase text-texth font-medium mb-4">MẸO HAY TRONG GIA ĐÌNH</h2>
                 <div className="flex flex-wrap mx-[-10px]">
                     <div className="w-full mb-5 sm:mb-0 sm:w-3/5 px-[10px]">
                         <div className="relative w-full">
@@ -58,7 +58,7 @@ export default function NewsHome() {
                         </div>
                         <Link href={'/news'}>
                             <a href="" title="" className="flex items-center">
-                                <span className="title13 text-blue-500">Xem các tin bài khác</span>
+                                <span className="text-[13px] text-blue-500">Xem các tin bài khác</span>
                                 <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
                                     xmlns="http://www.w3.org/2000/svg" className="ml-1 mt-1">
                                     <path

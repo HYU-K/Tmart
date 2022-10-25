@@ -1,6 +1,9 @@
 .active .sub_menu {
   display: inblock;
 }
+.check-sl {
+  border: 1px solid #00A652;
+}
 .visible {
   left: 0;
 }
@@ -44,6 +47,13 @@
 .bg_li_blue {
   background: linear-gradient(180deg, rgba(0, 166, 82, 0.015) 0%, rgba(0, 166, 82, 0.09) 60.94%, rgba(255, 255, 255, 0) 100%);
 }
+.bg_flash_sales {
+  background: linear-gradient(90deg, #FFC700 24.82%, #7A4F00 100%);
+}
+.scroll_auto::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
 .gradient {
   background: linear-gradient(180deg, #f8f199 0%, #6fcf97 100%);
 }
@@ -56,9 +66,7 @@
 .auto .click_more {
   display: none;
 }
-.store_image .swiper-pagination {
-  position: relative !important;
-}
+
 @keyframes animationPlay {
   0% {
     transform: scale(1);
@@ -76,4 +84,23 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
   }
+}
+
+
+
+/* css slide  */
+.store_image .swiper-pagination {
+  position: relative !important;
+}
+.mySwiper .swiper-slide {
+  opacity: 0.4;
+}
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
