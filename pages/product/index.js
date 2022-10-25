@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import SlideProduct from '../../components/modules/slide-product';
 import SliderRelatedProducts from '../../components/modules/slider-related-products';
 import BoxComments from '../../components/modules/box-comments';
-import ProductsSlidePopup from '../../components/layouts/popup-products-slide';
+import LocationPopup from '../../components/layouts/popup-location';
 import Link from 'next/link'
 
 export default function Product(props) {
@@ -430,7 +430,7 @@ export default function Product(props) {
                 </div>
             </div>
 
-            <ProductsSlidePopup />
+            <LocationPopup />
         </div>
     );
 }
