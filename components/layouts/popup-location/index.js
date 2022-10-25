@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function LocationPopup() {
     return (
         <div before=""
-            className="w-full h-full fixed top-0 left-0 before:content-[attr(before)] before:bg-black before:top-0 before:left-0 before:absolute before:w-full before:h-full before:opacity-70 z-[99999]">
+            className="w-full h-full fixed top-0 left-0 before:content-[attr(before)] before:bg-black before:top-0 before:left-0 before:absolute before:w-full before:h-full before:opacity-70 hidden">
             <div
                 className={`w-11/12 xs:w-96 max-h-full overflow-y-scroll bg-white absolute top-16 left-4 sm:left-[40%] sm:-translate-x-1/2 ${styles.scroll_hidden}`}>
                 <div className="bg-red-800 py-4 px-7 mb-[2px]">
