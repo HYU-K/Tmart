@@ -390,15 +390,15 @@ export default function Footer(props) {
                                 className="rounded px-3 py-2 focus:outline-none border border-gray-300 h-auto placeholder-gray-400 text-black text-[13px] w-full"></textarea>
                         </div>
                         <div className="flex gap-8 xs:gap-12 mb-5">
-                            <div class="flex items-center">
-                                <input class="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat1" />
-                                <label class="cursor-pointer inline-block text-gray-800" for="chat1">
+                            <div className="flex items-center">
+                                <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat1" />
+                                <label className="cursor-pointer inline-block text-gray-800" for="chat1">
                                     Anh
                                 </label>
                             </div>
-                            <div class="flex items-center">
-                                <input class="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat2" checked />
-                                <label class="cursor-pointer inline-block text-gray-800" for="chat2">
+                            <div className="flex items-center">
+                                <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat2" checked />
+                                <label className="cursor-pointer inline-block text-gray-800" for="chat2">
                                     Chị
                                 </label>
                             </div>

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function AccountInformation({ }) {
     return (
-        <div id="main" class="overflow-hidden bg-gray-100 pb-20 xs:pb-0">
+        <div id="main" className="overflow-hidden bg-gray-100 pb-20 xs:pb-0">
 
             <Head>
                 <title>Tai khoan 2</title>
@@ -18,7 +18,7 @@ export default function AccountInformation({ }) {
                 <Header />
             </div>
 
-            <div className="container">
+            <div className="sm:container">
                 <div className="w-full max-w-4xl mx-auto mb-8">
                     <div className="my-6">
                         <Link href={'/account'}>
@@ -42,15 +42,15 @@ export default function AccountInformation({ }) {
                         </div>
                         <div className="p-4 xs:py-6 xs:px-8">
                             <div className="flex gap-8 sm:gap-12 mb-5">
-                                <div class="flex items-center">
-                                    <input class="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                    <label class="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault1">
+                                <div className="flex items-center">
+                                    <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                    <label className="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault1">
                                         Anh
                                     </label>
                                 </div>
-                                <div class="flex items-center">
-                                    <input class="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                    <label class="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault2">
+                                <div className="flex items-center">
+                                    <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                    <label className="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault2">
                                         Chị
                                     </label>
                                 </div>

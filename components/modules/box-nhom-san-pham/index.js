@@ -118,8 +118,8 @@ export default function BoxNhomSanPham() {
                                     </SwiperSlide>
                                 </Swiper>
                             </>
-                            <div class="swiper-button-next absolute top-1/2 left-0 w-4 h-4 border border-green-600 rounded-full flex items-center justify-center transform -translate-y-1/2 before:ml-[1px] before:content-[attr(before)] before:w-[4px] before:h-[4px] before:border-t before:border-r before:border-green-600 before:rotate-[-135deg]"></div>
-                            <div class="swiper-button-prev absolute top-1/2 right-0 w-4 h-4 border border-green-600 rounded-full flex items-center justify-center transform -translate-y-1/2 before:mr-[1px] before:content-[attr(before)] before:w-[4px] before:h-[4px] before:border-t before:border-r before:border-green-600 before:rotate-45"></div>
+                            <div className="swiper-button-next absolute top-1/2 left-0 w-4 h-4 border border-green-600 rounded-full flex items-center justify-center transform -translate-y-1/2 before:ml-[1px] before:content-[attr(before)] before:w-[4px] before:h-[4px] before:border-t before:border-r before:border-green-600 before:rotate-[-135deg]"></div>
+                            <div className="swiper-button-prev absolute top-1/2 right-0 w-4 h-4 border border-green-600 rounded-full flex items-center justify-center transform -translate-y-1/2 before:mr-[1px] before:content-[attr(before)] before:w-[4px] before:h-[4px] before:border-t before:border-r before:border-green-600 before:rotate-45"></div>
                         </div>
                     </div>
                 </div>

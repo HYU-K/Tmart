@@ -60,8 +60,8 @@ export default function SlideSystem() {
                     </SwiperSlide>
                 </Swiper>
             </>
-            <div class="swiper-button-next absolute top-1/2 left-0 w-7 h-9 rounded-tr-3xl rounded-br-3xl bg-opacity-30 bg-black flex items-center justify-center transform -translate-y-1/2 before:ml-[1px] before:content-[attr(before)] before:w-2 before:h-2 before:border-t-[3px] before:border-r-[3px] before:border-white before:rotate-[-135deg] zoom-60 xs:zoom-70 sm:zoom-80 lg:zoom-90 zoom-100 z-10 cursor-pointer"></div>
-            <div class="swiper-button-prev absolute top-1/2 right-0 w-7 h-9 rounded-tl-3xl rounded-bl-3xl bg-opacity-30 bg-black flex items-center justify-center transform -translate-y-1/2 before:mr-[1px] before:content-[attr(before)] before:w-2 before:h-2 before:border-t-[3px] before:border-r-[3px] before:border-white before:rotate-45 zoom-60 xs:zoom-70 sm:zoom-80 lg:zoom-90 zoom-100 z-10 cursor-pointer"></div>
+            <div className="swiper-button-next absolute top-1/2 left-0 w-7 h-9 rounded-tr-3xl rounded-br-3xl bg-opacity-30 bg-black flex items-center justify-center transform -translate-y-1/2 before:ml-[1px] before:content-[attr(before)] before:w-2 before:h-2 before:border-t-[3px] before:border-r-[3px] before:border-white before:rotate-[-135deg] zoom-60 xs:zoom-70 sm:zoom-80 lg:zoom-90 zoom-100 z-10 cursor-pointer"></div>
+            <div className="swiper-button-prev absolute top-1/2 right-0 w-7 h-9 rounded-tl-3xl rounded-bl-3xl bg-opacity-30 bg-black flex items-center justify-center transform -translate-y-1/2 before:mr-[1px] before:content-[attr(before)] before:w-2 before:h-2 before:border-t-[3px] before:border-r-[3px] before:border-white before:rotate-45 zoom-60 xs:zoom-70 sm:zoom-80 lg:zoom-90 zoom-100 z-10 cursor-pointer"></div>
         </div>
     );
 }

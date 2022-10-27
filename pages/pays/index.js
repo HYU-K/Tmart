@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Cart({ }) {
     return (
-        <div id="main" class="overflow-hidden bg-gray-100 pb-20 xs:pb-0">
+        <div id="main" className="overflow-hidden bg-gray-100">
 
             <Head>
                 <title>Cart</title>
@@ -18,22 +18,232 @@ export default function Cart({ }) {
                 <Header />
             </div>
 
-            <div className="container">
-                <div className="w-full max-w-4xl mx-auto mb-8">
-                    <div className="my-6">
-                        <Link href={'/account'}>
+            <div className="sm:container">
+                <div className="w-full max-w-[640px] mx-auto">
+                    <div className="my-5 xs:my-7">
+                        <Link href={'/cart'}>
                             <a className="flex items-center" href="" title="">
                                 <svg width="21" height="20" viewBox="0 0 21 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9177 4.41083C14.2431 4.73626 14.2431 5.2639 13.9177 5.58934L9.50696 10.0001L13.9177 14.4108C14.2431 14.7363 14.2431 15.2639 13.9177 15.5893C13.5923 15.9148 13.0646 15.9148 12.7392 15.5893L7.73919 10.5893C7.41376 10.2639 7.41376 9.73626 7.73919 9.41083L12.7392 4.41083C13.0646 4.08539 13.5923 4.08539 13.9177 4.41083Z" fill="" className="text-green-600 ml-1" />
                                 </svg>
-                                <span className="text-green-600 text-[13px]">Quay về lịch sử mua hàng</span>
+                                <span className="text-green-600 text-[13px]">Xem lại giỏ hàng</span>
                             </a>
                         </Link>
                     </div>
-                    <div className="w-full bg-white mb-3">
+                    <div className="w-full bg-white p-4 mb-2 flex items-center justify-center">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2"><path d="M9.09742 12.1336L8.15409 11.1916L11.2208 8.12491L8.15409 5.05824L9.09742 4.12024L13.1041 8.12691L9.09809 12.1336H9.09742ZM5.48075 12.1336L4.53809 11.1916L7.60475 8.12491L4.53809 5.06291L5.48075 4.12024L9.48809 8.12691L5.48142 12.1336H5.48075Z" fill="#00A652"></path></svg>
+                        <span className="text-sm text-texth font-medium uppercase">lấy địa chỉ mua hàng trước</span>
+                    </div>
+                    <div className="w-full bg-white p-4 sm:px-7 sm:py-5 mb-2">
+                        <h3 className="text-sm text-texth font-bold mb-4">1. Thông tin người mua hàng:</h3>
+                        <div className="flex gap-8 sm:gap-12 mb-5">
+                            <div className="flex items-center">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                <label className="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault1">
+                                    Anh
+                                </label>
+                            </div>
+                            <div className="flex items-center">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                <label className="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault2">
+                                    Chị
+                                </label>
+                            </div>
+                        </div>
+                        <div className="mb-2">
+                            <input type="text"
+                                className="rounded p-3 mb-3 focus:outline-none border border-gray-200 h-auto placeholder-gray-300 text-black text-sm w-full"
+                                placeholder="Họ - tên*" id="typemsg" />
+                            <input type="text"
+                                className="rounded p-3 mb-3 focus:outline-none border border-gray-200 h-auto placeholder-gray-300 text-black text-sm w-full"
+                                placeholder="Số điện thoại*" id="typemsg" />
+                        </div>
+                        <div className="flex items-center mb-1">
+                            <input className="appearance-none min-w-[18px] h-[18px] relative rounded border-2 bg-white border-green-600 checked:bg-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:transform before:rotate-45 before:mt-[-1px] before:w-[5px] before:h-[9px] before:border-b-2 before:border-r-0 before:border-white checked:before:border-r-2" type="checkbox" name="checkinfo" id="checkinfo" />
+                            <label className="text-sm cursor-pointer inline-block text-blue-600" for="checkinfo">
+                                Gọi người nhận hàng nếu có
+                            </label>
+                        </div>
+                    </div>
+                    <div className="w-full bg-white p-4 sm:px-7 sm:py-5 mb-2">
+                        <h3 className="text-sm text-texth font-bold mb-4">2. Địa chỉ nhận hàng:</h3>
+                        <div className="mb-5">
+                            <div className="grid grid-cols-1 xs:grid-cols-2 items-center justify-between mb-3 gap-3">
+                                <div className="w-full p-3 border border-gray-200 bg-white rounded overflow-hidden">
+                                    <select name="" id="" className="bg-transparent cursor-pointer text-gray-500 focus:text-black text-sm w-full focus:outline-none">
+                                        <option value="">Tỉnh/Thành</option>
+                                        <option value="">địa điểm 1</option>
+                                        <option value="">địa điểm 2</option>
+                                    </select>
+                                </div>
+                                <div className="w-full p-3 border border-gray-200 bg-white rounded overflow-hidden">
+                                    <select name="" id="" className="bg-transparent cursor-pointer text-gray-500 focus:text-black text-sm w-full focus:outline-none">
+                                        <option value="">Quận/huyện</option>
+                                        <option value="">địa điểm 1</option>
+                                        <option value="">địa điểm 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div className="w-full mb-3 p-3 border border-gray-200 bg-white rounded overflow-hidden">
+                                <select name="" id="" className="bg-transparent cursor-pointer text-gray-500 focus:text-black text-sm w-full focus:outline-none">
+                                    <option value="">Xã/phường</option>
+                                    <option value="">địa điểm 1</option>
+                                    <option value="">địa điểm 2</option>
+                                </select>
+                            </div>
+                            <div className="mb-3 rounded border border-gray-200">
+                                <input type="text"
+                                    className="p-3 focus:outline-none h-auto placeholder-gray-500 text-black text-sm w-full"
+                                    placeholder="Số nhà, tên đường*" id="typemsg" />
+                            </div>
+                        </div>
+                        <div className="flex items-center mb-3">
+                            <input className="appearance-none min-w-[18px] h-[18px] relative rounded border-2 bg-white border-green-600 checked:bg-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:transform before:rotate-45 before:mt-[-1px] before:w-[5px] before:h-[9px] before:border-b-2 before:border-r-0 before:border-white checked:before:border-r-2" type="checkbox" name="checkinplus" id="checkinplus" />
+                            <label className="text-sm cursor-pointer inline-block text-blue-600" for="checkinplus">
+                                Yêu cầu mang lên lầu (+5000)
+                            </label>
+                        </div>
+                        <div className="text-gray-500 text-[13px] pl-6">*Lưu ý quy định tòa nhà/chung cư khi yêu cầu mang lên lầu</div>
+                    </div>
+                    <div className="w-full bg-white p-4 sm:px-7 sm:py-5 mb-2">
+                        <h3 className="text-sm text-texth font-bold mb-4">3. Thời gian nhận hàng:</h3>
+                        <div className="mb-4">
+                            <div className="grid grid-cols-1 xs:grid-cols-2 items-center justify-between gap-3">
+                                <div className="w-full p-3 border border-gray-200 bg-white rounded overflow-hidden">
+                                    <select name="" id="" className="bg-transparent cursor-pointer text-gray-500 focus:text-black text-sm w-full focus:outline-none">
+                                        <option value="">Ngày nhận</option>
+                                        <option value="">Ngày nhận 1</option>
+                                        <option value="">Ngày nhận 2</option>
+                                    </select>
+                                </div>
+                                <div className="w-full p-3 border border-gray-200 bg-white rounded overflow-hidden">
+                                    <select name="" id="" className="bg-transparent cursor-pointer text-gray-500 focus:text-black text-sm w-full focus:outline-none">
+                                        <option value="">Thời gian nhận</option>
+                                        <option value="">Thời gian nhận 1</option>
+                                        <option value="">Thời gian nhận 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex items-center gap-3 py-2.5 px-2 bg-orange-100 flex-wrap">
+                            <a href="" title="" className="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-plus text-blue-500" viewBox="0 0 16 16">
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                                <span className="text-sm text-blue-500 font-medium">Mua thêm</span>
+                            </a>
+                            <p className="text-sm text-texth font-medium">để miễn phía giao với đơn từ 300.000</p>
+                        </div>
+                    </div>
+                    <div className="w-full bg-white p-4 sm:px-7 sm:py-5 mb-2">
+                        <h3 className="text-sm text-texth font-bold mb-4">4. Đơn vị vận chuyển:</h3>
+                        <div className="">
+                            <div className="group flex items-center mb-4 pb-4 border-b border-gray-200 last:mb-0 last:pb-0 last:border-none">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="shipRadioDefault" id="ship1" />
+                                <label className="flex items-center justify-between w-full cursor-pointer" for="ship1">
+                                    <span className="text-sm text-texth">Vận chuyển qua T-Mart</span>
+                                    <span className="text-sm text-gray-800 group-hover:text-red-500">35.000 đ</span>
+                                </label>
+                            </div>
+                            <div className="group flex items-center mb-4 pb-4 border-b border-gray-200 last:mb-0 last:pb-0 last:border-none">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="shipRadioDefault" id="ship2" checked />
+                                <label className="flex items-center justify-between w-full cursor-pointer" for="ship2">
+                                    <span className="text-sm text-texth">Giao hàng tiết kiệm</span>
+                                    <span className="text-sm text-gray-800 group-hover:text-red-500">35.000 đ</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full bg-white p-4 sm:px-7 sm:py-5 mb-2">
+                        <h3 className="text-sm text-texth font-bold mb-4">5. Hình thức thanh toán:</h3>
+                        <div className="mb-4">
+                            <div className="group flex items-center mb-3 py-3 px-4 rounded border border-gray-200 last:mb-0">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-blue-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-blue-600" type="radio" name="payRadioDefault" id="pays1" />
+                                <label className="flex items-center justify-between w-full cursor-pointer" for="pays1">
+                                    <span className="text-sm text-gray-500">Thẻ visa, Master, JCB</span>
+                                </label>
+                            </div>
+                            <div className="group flex items-center mb-3 py-3 px-4 rounded border border-gray-200 last:mb-0">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-blue-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-blue-600" type="radio" name="payRadioDefault" id="pays2" />
+                                <label className="flex items-center justify-between w-full cursor-pointer" for="pays2">
+                                    <span className="text-sm text-gray-500">Ví Momo</span>
+                                </label>
+                            </div>
+                            <div className="group flex items-center mb-3 py-3 px-4 rounded border border-gray-200 last:mb-0">
+                                <input className="appearance-none rounded-full min-w-[16px] h-4 relative border border-gray-400 bg-white checked:border-blue-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-blue-600" type="radio" name="payRadioDefault" id="pays3" />
+                                <label className="flex items-center justify-between w-full cursor-pointer" for="pays3">
+                                    <span className="text-sm text-gray-500">Tiền mặt khi nhận hàng</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div className="mb-4">
+                            <a href="" title="" className="flex items-center gap-x-1.5">
+                                <span className="text-[13px] text-gray-500">Xem thêm 5 hình thức thanh toán</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-chevron-right transform rotate-90 text-gray-500 mt-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg>
+                            </a>
+                        </div>
+                        <div className="mb-5">
+                            <div className="flex items-center mb-4 last:mb-0">
+                                <input className="appearance-none min-w-[18px] h-[18px] relative rounded border-2 bg-white border-green-600 checked:bg-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:transform before:rotate-45 before:mt-[-1px] before:w-[5px] before:h-[9px] before:border-b-2 before:border-r-0 before:border-white checked:before:border-r-2" type="checkbox" name="checkphone" id="checkphone" />
+                                <label className="text-sm cursor-pointer inline-block text-texth" for="checkphone">
+                                    Gọi trước khi giao
+                                </label>
+                            </div>
+                            <div className="flex items-center mb-4 last:mb-0">
+                                <input className="appearance-none min-w-[18px] h-[18px] relative rounded border-2 bg-white border-green-600 checked:bg-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:transform before:rotate-45 before:mt-[-1px] before:w-[5px] before:h-[9px] before:border-b-2 before:border-r-0 before:border-white checked:before:border-r-2" type="checkbox" name="checkreceipt" id="checkreceipt" />
+                                <label className="text-sm cursor-pointer inline-block text-texth" for="checkreceipt">
+                                    Xuất hóa đơn công ty
+                                </label>
+                            </div>
+                        </div>
+                        <div className="mb-5">
+                            <textarea name="" id="" placeholder="Ghi chú thêm (nếu có)" className="w-full pt-2 pl-2 sm:pt-3 sm:pl-3 text-xs xs:text-sm text-gray-600 bg-gray-200 rounded focus:outline-none" rows="3"></textarea>
+                        </div>
+                        <div className="mb-6">
+                            <div className="flex items-center justify-end mb-4">
+                                <div className="">
+                                    <h3 className="text-black text-sm font-medium">Tiền hàng:</h3>
+                                </div>
+                                <div className="flex items-center justify-end min-w-[120px]">
+                                    <p className="text-black text-sm font-medium">350.000 đ</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center justify-end mb-4">
+                                <div className="">
+                                    <h3 className="text-blue-500 text-sm font-medium">Phí giao hàng</h3>
+                                </div>
+                                <div className="flex items-center justify-end min-w-[120px]">
+                                    <p className="text-gray-500 text-sm font-medium">50.000 đ</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center justify-end mb-5">
+                                <div className="">
+                                    <h3 className="text-black text-sm font-medium">Tổng đơn hàng:</h3>
+                                </div>
+                                <div className="flex items-center justify-end min-w-[120px]">
+                                    <p className="text-black text-sm font-medium">400.000 đ</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center justify-end">
+                                <button className="flex items-center justify-center p-2.5 border border-blue-500 rounded overflow-hidden">
+                                    <span className="text-sm leading-[120%] text-blue-500">Dùng phiếu mua hàng</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div className="mb-4">
+                            <button className="mx-auto mb-2 py-3.5 px-5 xs:px-11 overflow-hidden bg-color1 border border-color1 text-white leading-[0] rounded grid items-center justify-center relative before:duration-500 z-[1] before:content-[attr(before)] before:bg-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[1] before:origin-center-left before:scale-x-0 hover:before:scale-100 hover:before:duration-500 hover:text-color1">
+                                <p className="text-sm xs:text-base font-medium leading-[100%] z-[2] uppercase mb-1">Xác nhận đơn hàng</p>
+                                <p className="text-xs xs:text-sm leading-[100%] z-[2]">Lựa chọn các hình thức thanh toán ở bước sau</p>
+                            </button>
+                            <button className="mx-auto p-3 overflow-hidden text-texth leading-[0] rounded flex items-center justify-center relative hover:text-color1">
+                                <span className="text-sm xs:text-base font-medium leading-[100%] uppercase">Xóa giỏ hàng</span>
+                            </button>
+                        </div>
+                        <div className="flex items-center justify-center bg-gray-200 p-3 xs:p-4 rounded">
+                            <span className="text-xs xs:text-[13px] text-texth text-center">Bằng cách đặt hàng bạn đã đồng ý với điều khoản sử dụng của T-Mart</span>
+                        </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         </div>
     );

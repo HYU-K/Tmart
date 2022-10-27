@@ -22,7 +22,7 @@ export default function SliderSanPham() {
                     <div className="w-8 h-8">
                         <img src="./images/icon/set.png" alt="" className="min-w-[30px] w-full" />
                     </div>
-                    <h2 class="text-base sm:text-xl lg:text-2xl text-white text-center font-medium uppercase">KHUYẾN MÃI THÁNG 9</h2>
+                    <h2 className="text-base sm:text-xl lg:text-2xl text-white text-center font-medium uppercase">KHUYẾN MÃI THÁNG 9</h2>
                     <div className="w-8 h-8">
                         <img src="./images/icon/set1.png" alt="" className="min-w-[30px] w-full" />
                     </div>
