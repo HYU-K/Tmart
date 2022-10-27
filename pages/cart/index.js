@@ -19,18 +19,8 @@ export default function Cart({ }) {
             </div>
 
             <div className="container">
-                <div className="w-full max-w-4xl mx-auto mb-8">
-                    <div className="my-6">
-                        <Link href={'/account'}>
-                            <a className="flex items-center" href="" title="">
-                                <svg width="21" height="20" viewBox="0 0 21 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9177 4.41083C14.2431 4.73626 14.2431 5.2639 13.9177 5.58934L9.50696 10.0001L13.9177 14.4108C14.2431 14.7363 14.2431 15.2639 13.9177 15.5893C13.5923 15.9148 13.0646 15.9148 12.7392 15.5893L7.73919 10.5893C7.41376 10.2639 7.41376 9.73626 7.73919 9.41083L12.7392 4.41083C13.0646 4.08539 13.5923 4.08539 13.9177 4.41083Z" fill="" className="text-green-600 ml-1" />
-                                </svg>
-                                <span className="text-green-600 text-[13px]">Quay về lịch sử mua hàng</span>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="w-full bg-white mb-3">
+                <div className="w-full max-w-[640px] mx-auto mb-8">
+                    <div className="w-full bg-white mb-1.5">
                     </div>
                 </div>
                 <Footer />
