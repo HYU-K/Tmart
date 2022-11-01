@@ -21,7 +21,7 @@ export default function ProductItem() {
                                 <div className="xs:flex flex-wrap items-center ">
                                     <h3 className="text-[13px] text-red-700 mr-2 mb-1 xs:mb-0 font-bold">
                                         150.000đ</h3>
-                                    <p className="text-xs text-gray-400 mr-2">250.000đ</p>
+                                    <p className="text-xs text-gray-400 mr-2 line-through">250.000đ</p>
                                 </div>
                                 <div
                                     className="bg-red-700 flex px-[5px] py-[1px] w-fit rounded-sm absolute top-2 left-2 sm:top-auto sm:left-auto sm:relative">
