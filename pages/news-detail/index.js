@@ -41,8 +41,8 @@ export default function NewsDetail({ }) {
                         <li className="min-w-fit px-2">
                             <a href="" title="" className="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none" className="mr-2 zoom-80 sm:zoom-100">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4374 1.60984C10.7684 1.35238 11.2319 1.35238 11.5629 1.60984L19.8129 8.02651C20.0362 8.20018 20.1668 8.46721 20.1668 8.75008V18.8334C20.1668 19.5628 19.8771 20.2622 19.3614 20.778C18.8457 21.2937 18.1462 21.5834 17.4168 21.5834H4.5835C3.85415 21.5834 3.15468 21.2937 2.63895 20.778C2.12323 20.2622 1.8335 19.5628 1.8335 18.8334V8.75008C1.8335 8.46721 1.9641 8.20018 2.18738 8.02651L10.4374 1.60984ZM3.66683 9.19841V18.8334C3.66683 19.0765 3.76341 19.3097 3.93532 19.4816C4.10722 19.6535 4.34038 19.7501 4.5835 19.7501H17.4168C17.6599 19.7501 17.8931 19.6535 18.065 19.4816C18.2369 19.3097 18.3335 19.0765 18.3335 18.8334V9.19841L11.0002 3.4947L3.66683 9.19841Z" fill="#FF3333" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5415 12.3461C14.9103 11.0722 17.6768 11.1234 19.4886 11.5261L19.0114 13.6737C17.5232 13.343 15.3397 13.3392 13.5835 14.2837C11.9318 15.1719 10.45 17.0093 10.45 20.8499H8.25C8.25 16.3305 10.0682 13.6762 12.5415 12.3461Z" fill="#FF3333" />
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M10.4374 1.60984C10.7684 1.35238 11.2319 1.35238 11.5629 1.60984L19.8129 8.02651C20.0362 8.20018 20.1668 8.46721 20.1668 8.75008V18.8334C20.1668 19.5628 19.8771 20.2622 19.3614 20.778C18.8457 21.2937 18.1462 21.5834 17.4168 21.5834H4.5835C3.85415 21.5834 3.15468 21.2937 2.63895 20.778C2.12323 20.2622 1.8335 19.5628 1.8335 18.8334V8.75008C1.8335 8.46721 1.9641 8.20018 2.18738 8.02651L10.4374 1.60984ZM3.66683 9.19841V18.8334C3.66683 19.0765 3.76341 19.3097 3.93532 19.4816C4.10722 19.6535 4.34038 19.7501 4.5835 19.7501H17.4168C17.6599 19.7501 17.8931 19.6535 18.065 19.4816C18.2369 19.3097 18.3335 19.0765 18.3335 18.8334V9.19841L11.0002 3.4947L3.66683 9.19841Z" fill="#FF3333" />
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M12.5415 12.3461C14.9103 11.0722 17.6768 11.1234 19.4886 11.5261L19.0114 13.6737C17.5232 13.343 15.3397 13.3392 13.5835 14.2837C11.9318 15.1719 10.45 17.0093 10.45 20.8499H8.25C8.25 16.3305 10.0682 13.6762 12.5415 12.3461Z" fill="#FF3333" />
                                 </svg>
                                 <span className="text-sm sm:text-base text-texth">Trang chủ</span>
                             </a>
@@ -72,7 +72,7 @@ export default function NewsDetail({ }) {
                 <div className="lg:flex lg:gap-4 pt-4 mb-8">
                     <div className="w-full lg:max-w-3/4 overflow-hidden mb-5 lg:mb-0">
                         <div className="w-full bg-white p-3 xs:py-5 xs:px-5 xl:px-8 rounded overflow-hidden">
-                            <div class={`overflow-hidden mb-4 sm:mb-5 ${styles.limit_text_1}`}>
+                            <div className={`overflow-hidden mb-4 sm:mb-5 ${styles.limit_text_1}`}>
                                 <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Kinh nghiệm hay</a>
                                 <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Ăn gì chơi gì</a>
                                 <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Địa điểm du lịch</a>
@@ -84,7 +84,7 @@ export default function NewsDetail({ }) {
                                     <a href="" title="" className="flex items-center">
                                         <span className="text-blue-500 font-medium text-sm xs:text-base">Xem nhanh</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none" className="ml-2">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.83768 11.4124C4.60988 11.1846 4.60988 10.8152 4.83768 10.5874L7.9252 7.49992L4.83768 4.4124C4.60988 4.18459 4.60988 3.81524 4.83768 3.58744C5.06549 3.35963 5.43483 3.35963 5.66264 3.58744L9.16264 7.08744C9.39045 7.31524 9.39045 7.68459 9.16264 7.9124L5.66264 11.4124C5.43484 11.6402 5.06549 11.6402 4.83768 11.4124Z" fill="#2F80ED" />
+                                            <path fillRule="evenodd" clipRule="evenodd" d="M4.83768 11.4124C4.60988 11.1846 4.60988 10.8152 4.83768 10.5874L7.9252 7.49992L4.83768 4.4124C4.60988 4.18459 4.60988 3.81524 4.83768 3.58744C5.06549 3.35963 5.43483 3.35963 5.66264 3.58744L9.16264 7.08744C9.39045 7.31524 9.39045 7.68459 9.16264 7.9124L5.66264 11.4124C5.43484 11.6402 5.06549 11.6402 4.83768 11.4124Z" fill="#2F80ED" />
                                         </svg>
                                     </a>
                                 </div>
@@ -163,7 +163,7 @@ export default function NewsDetail({ }) {
                                 <a href="" title="" className="flex items-center">
                                     <span className="text-[13px] text-green-600">Xem thêm</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.83768 11.4124C4.60988 11.1846 4.60988 10.8152 4.83768 10.5874L7.9252 7.49992L4.83768 4.4124C4.60988 4.18459 4.60988 3.81524 4.83768 3.58744C5.06549 3.35963 5.43483 3.35963 5.66264 3.58744L9.16264 7.08744C9.39045 7.31524 9.39045 7.68459 9.16264 7.9124L5.66264 11.4124C5.43484 11.6402 5.06549 11.6402 4.83768 11.4124Z" fill="#00A652" />
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M4.83768 11.4124C4.60988 11.1846 4.60988 10.8152 4.83768 10.5874L7.9252 7.49992L4.83768 4.4124C4.60988 4.18459 4.60988 3.81524 4.83768 3.58744C5.06549 3.35963 5.43483 3.35963 5.66264 3.58744L9.16264 7.08744C9.39045 7.31524 9.39045 7.68459 9.16264 7.9124L5.66264 11.4124C5.43484 11.6402 5.06549 11.6402 4.83768 11.4124Z" fill="#00A652" />
                                     </svg>
                                 </a>
                             </div>

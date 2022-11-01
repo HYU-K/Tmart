@@ -5,7 +5,7 @@ export default function Footer(props) {
     return (
         <>
             <footer className="">
-                <div className="hidden xs:block">
+                <div className="">
                     <div className="bg-white flex flex-wrap items-center border-b border-b-gray-300">
                         <div
                             className="w-full sm:w-1/2 p-3 flex items-center justify-center sm:border-r sm:border-r-gray-300">
@@ -32,7 +32,7 @@ export default function Footer(props) {
                             <div className="">
                                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1_5633)">
+                                    <g clipPath="url(#clip0_1_5633)">
                                         <path
                                             d="M32.6547 9.35665C31.3844 10.0339 30.2296 10.6568 29.0669 11.2669C28.7842 11.4155 28.8346 11.6533 28.8346 11.8834C28.8319 12.96 28.8147 14.0379 28.8412 15.1145C28.8545 15.6043 28.6899 15.9197 28.2333 16.1459C27.4263 16.5452 26.6458 16.9963 25.8454 17.4099C25.1273 17.7808 24.6946 17.5275 24.6853 16.7313C24.6747 15.8486 24.6747 14.9646 24.6866 14.0818C24.6906 13.7484 24.6123 13.6463 24.2778 13.8285C23.2173 14.4062 22.1501 14.9736 21.0802 15.5345C20.8387 15.6612 20.7351 15.8202 20.7365 16.0942C20.7444 20.0361 20.7457 23.9781 20.7351 27.92C20.7338 28.3517 20.8851 28.3233 21.1931 28.1578C24.8897 26.1765 28.589 24.1965 32.2937 22.2294C32.6003 22.0666 32.6627 21.8623 32.6587 21.556C32.6441 20.4355 32.66 19.3162 32.6507 18.1957C32.6467 17.7175 32.7357 17.2936 33.3343 17.3C33.8878 17.3065 33.9887 17.7045 33.986 18.1621C33.9794 19.4972 33.9714 20.8336 33.99 22.1687C33.9967 22.612 33.8228 22.886 33.4272 23.0966C29.1611 25.3662 24.9003 27.6435 20.6435 29.9311C20.2506 30.1417 19.9228 30.1598 19.5326 29.9362C18.8291 29.5317 18.0884 29.1879 17.3902 28.7743C17.0119 28.5495 16.8699 28.6231 16.6588 28.9902C14.8669 32.105 12.1206 33.6546 8.45318 33.612C7.33821 33.599 6.27102 33.316 5.24631 32.8804C4.78838 32.6866 4.4353 32.4268 4.67024 31.9098C4.91447 31.376 5.36312 31.5208 5.80247 31.7004C10.4562 33.5926 15.4045 30.9392 16.2474 26.1042C16.911 22.2966 14.1236 18.4955 10.188 17.8441C6.06529 17.1617 2.16554 19.7673 1.46072 23.6576C1.18728 25.1671 1.35586 26.6147 1.99166 28.0118C2.18943 28.4474 2.28102 28.879 1.7222 29.091C1.21914 29.2836 0.969599 28.954 0.771824 28.5378C-0.747988 25.339 0.0192183 21.3738 2.65002 18.8858C3.50085 18.0819 4.45654 17.4163 5.5808 17.0467C6.11174 16.8722 6.20864 16.5943 6.20333 16.1045C6.17944 13.6489 6.21528 11.1932 6.17811 8.73756C6.16749 8.081 6.41438 7.73334 6.99177 7.42832C11.1105 5.25443 15.216 3.05856 19.3122 0.844603C19.8551 0.551218 20.2825 0.525369 20.8373 0.826508C24.9508 3.05339 29.0749 5.26218 33.2122 7.44512C33.8029 7.7566 34.0219 8.12624 33.998 8.76988C33.9515 10.0171 33.9794 11.2682 33.986 12.518C33.9887 12.9781 33.8745 13.3658 33.321 13.3671C32.7689 13.3684 32.6481 12.9858 32.6521 12.5231C32.66 11.5112 32.6547 10.4992 32.6547 9.35665ZM19.3587 28.353C19.3852 28.1902 19.4051 28.1255 19.4051 28.0622C19.4078 24.0802 19.4025 20.0982 19.4197 16.1161C19.4211 15.7323 19.2127 15.6004 18.9313 15.4492C15.3288 13.5287 11.7291 11.6016 8.12798 9.68105C7.96206 9.59316 7.8134 9.4329 7.52802 9.51045C7.52802 11.7102 7.53333 13.9229 7.52404 16.1355C7.52271 16.5866 7.82004 16.4599 8.0656 16.4444C9.8031 16.3307 11.4517 16.6279 12.994 17.4344C16.473 19.2529 18.2583 22.9816 17.4712 26.8137C17.4168 27.0799 17.3318 27.2958 17.6703 27.4573C18.2211 27.7223 18.7494 28.0273 19.3587 28.353ZM8.29921 8.22446C8.42398 8.3214 8.48371 8.38343 8.55672 8.42221C12.2905 10.4216 16.027 12.4197 19.7622 14.4166C19.9148 14.498 20.0595 14.6053 20.2506 14.5019C21.4599 13.8544 22.6717 13.2081 23.9606 12.5206C20.0409 10.4242 16.2275 8.38731 12.4166 6.34654C12.2335 6.24832 12.0795 6.19662 11.8671 6.31165C10.6991 6.95141 9.5217 7.57307 8.29921 8.22446ZM16.4266 3.88185C16.5314 3.9762 16.5686 4.02531 16.619 4.05245C20.3728 6.06479 24.1278 8.07454 27.8842 10.083C28.0329 10.1618 28.1709 10.2756 28.3714 10.167C29.5248 9.54276 30.6836 8.92755 31.8769 8.29038C31.7733 8.20249 31.7335 8.15596 31.6818 8.12882C27.928 6.11778 24.173 4.10803 20.4166 2.09957C20.2652 2.01814 20.1206 1.90441 19.9254 2.0078C18.7733 2.62688 17.6172 3.24467 16.4266 3.88185ZM13.5117 5.44312C13.8489 5.62923 14.0559 5.74685 14.2656 5.85929C17.669 7.68034 21.0723 9.50011 24.4756 11.3212C25.43 11.8317 25.8467 11.7619 26.6936 10.9283C22.8775 8.88749 19.0693 6.85059 15.2625 4.81112C15.0766 4.7116 14.916 4.66765 14.7143 4.78914C14.3625 4.99981 13.9935 5.18334 13.5117 5.44312ZM26.014 15.8344C26.444 15.6095 26.7719 15.4415 27.0958 15.267C27.2816 15.1662 27.5059 15.1041 27.5033 14.8224C27.4953 13.9552 27.5006 13.0866 27.5006 12.1199C27.0281 12.3693 26.671 12.5748 26.2994 12.748C26.0578 12.8605 26.01 13.0324 26.0127 13.2663C26.0193 14.0818 26.014 14.8974 26.014 15.8344Z"
                                             fill="#00A652" />
@@ -65,7 +65,7 @@ export default function Footer(props) {
                                 <div className="mt-1">
                                     <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_1_5681)">
+                                        <g clipPath="url(#clip0_1_5681)">
                                             <path
                                                 d="M9.80742 18.08C4.57867 18.0852 0.315727 14.054 0.308603 9.09721C0.301478 4.11946 4.55176 0.0859627 9.81058 0.0799627C15.0369 0.0739627 19.3094 4.11421 19.3086 9.06271C19.3086 14.0487 15.0662 18.0747 9.80742 18.08ZM12.7428 14.4785C12.8346 14.4965 12.9589 14.459 13.0729 14.3892C13.9073 13.8785 14.6641 13.2815 15.3322 12.5832C15.5737 12.3312 15.5381 12.1175 15.2618 11.924C14.486 11.3825 13.6682 10.907 12.795 10.517C12.5465 10.406 12.3406 10.4367 12.1633 10.6415C12.0295 10.796 11.8886 10.9445 11.7509 11.096C11.344 11.5422 11.34 11.5505 10.7574 11.3195C9.31185 10.7457 8.22336 9.80071 7.5758 8.44396C7.11269 7.47196 7.16257 7.69921 7.87266 7.09171C7.95104 7.02496 8.02861 6.95746 8.11253 6.89596C8.36902 6.70771 8.41889 6.49096 8.27323 6.20746C7.86712 5.41996 7.39372 4.67146 6.8475 3.96646C6.56488 3.60196 6.41447 3.59821 6.04399 3.90646C5.52626 4.33696 5.12649 4.86946 4.6618 5.34496C4.10924 5.91046 4.04432 6.49996 4.31427 7.19596C5.52626 10.3265 7.81171 12.512 10.9252 13.9707C11.4825 14.2317 12.0802 14.3877 12.7428 14.4785ZM15.4961 8.30296C15.4716 8.16796 15.4557 8.03146 15.4351 7.89571C15.0924 5.64496 12.9668 3.80596 10.5713 3.69196C10.4597 3.68671 10.2792 3.62821 10.2484 3.74071C10.1961 3.92746 10.1977 4.13671 10.2254 4.33096C10.2531 4.52821 10.4597 4.44796 10.584 4.46296C12.8742 4.73821 14.3989 6.16846 14.668 8.32996C14.7045 8.62096 15.5476 8.58946 15.4961 8.30296ZM13.4473 8.28121C13.2756 6.94171 12.0351 5.76571 10.6283 5.64046C10.4851 5.62771 10.2009 5.48896 10.2238 5.80396C10.2396 6.01921 10.0022 6.34396 10.5254 6.40621C11.659 6.54046 12.4713 7.31671 12.6288 8.38696C12.6731 8.68171 13.4861 8.58571 13.4473 8.28121Z"
                                                 fill="#FF3333" />
@@ -117,7 +117,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Chính sách giao hàng</a>
@@ -126,7 +126,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Chính sách khách hàng</a>
@@ -135,7 +135,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Chính sách đổi trả</a>
@@ -144,7 +144,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <Link href={'/contact'}>
@@ -155,7 +155,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Hóa đơn điện tử</a>
@@ -164,7 +164,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Hướng dẫn mua hàng</a>
@@ -173,7 +173,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Quy chế hoạt động</a>
@@ -182,7 +182,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <Link href={'/introduce'}>
@@ -193,7 +193,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Cần thuê mặt bằng</a>
@@ -202,7 +202,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <Link href={'/answer'}>
@@ -213,7 +213,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Tuyển dụng</a>
@@ -222,7 +222,7 @@ export default function Footer(props) {
                                             <div className="mr-2 mt-2 max-w-[6px]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
                                                     fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                                                    <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
                                                 </svg>
                                             </div>
                                             <a href="" title="" className="">Tích điểm Quà tặng VIP</a>
@@ -282,19 +282,19 @@ export default function Footer(props) {
                                             <mask id="path-1-inside-1_1_1081" fill="white">
                                                 <rect x="0.887207" y="0.774292" width="8.61285" height="8.61285" rx="1" />
                                             </mask>
-                                            <rect x="0.887207" y="0.774292" width="8.61285" height="8.61285" rx="1" stroke="" stroke-width="3" mask="url(#path-1-inside-1_1_1081)" />
+                                            <rect x="0.887207" y="0.774292" width="8.61285" height="8.61285" rx="1" stroke="" strokeWidth="3" mask="url(#path-1-inside-1_1_1081)" />
                                             <mask id="path-2-inside-2_1_1081" fill="white">
                                                 <rect x="10.5" y="0.774292" width="8.61285" height="8.61285" rx="1" />
                                             </mask>
-                                            <rect x="10.5" y="0.774292" width="8.61285" height="8.61285" rx="1" stroke="" stroke-width="3" mask="url(#path-2-inside-2_1_1081)" />
+                                            <rect x="10.5" y="0.774292" width="8.61285" height="8.61285" rx="1" stroke="" strokeWidth="3" mask="url(#path-2-inside-2_1_1081)" />
                                             <mask id="path-3-inside-3_1_1081" fill="white">
                                                 <rect x="0.887207" y="11.3872" width="8.61285" height="8.61285" rx="1" />
                                             </mask>
-                                            <rect x="0.887207" y="11.3872" width="8.61285" height="8.61285" rx="1" stroke="" stroke-width="3" mask="url(#path-3-inside-3_1_1081)" />
+                                            <rect x="0.887207" y="11.3872" width="8.61285" height="8.61285" rx="1" stroke="" strokeWidth="3" mask="url(#path-3-inside-3_1_1081)" />
                                             <mask id="path-4-inside-4_1_1081" fill="white">
                                                 <rect x="10.5" y="11.3872" width="8.61285" height="8.61285" rx="1" />
                                             </mask>
-                                            <rect x="10.5" y="11.3872" width="8.61285" height="8.61285" rx="1" stroke="" stroke-width="3" mask="url(#path-4-inside-4_1_1081)" />
+                                            <rect x="10.5" y="11.3872" width="8.61285" height="8.61285" rx="1" stroke="" strokeWidth="3" mask="url(#path-4-inside-4_1_1081)" />
                                         </svg>
                                     </div>
                                     <p className="text-gray-400 group-hover:text-red-500 text-[10px]">Sản phẩm</p>
@@ -317,9 +317,9 @@ export default function Footer(props) {
                                 <a href="" title="" className="group text-center">
                                     <div className="relative">
                                         <svg width="22" height="23" viewBox="0 0 22 23" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="mx-auto mb-2 text-white stroke-gray-400 group-hover:stroke-red-500">
-                                            <path d="M8.36051 19.7558C8.64321 19.7558 8.87238 19.5266 8.87238 19.2439C8.87238 18.9612 8.64321 18.7321 8.36051 18.7321C8.07781 18.7321 7.84863 18.9612 7.84863 19.2439C7.84863 19.5266 8.07781 19.7558 8.36051 19.7558Z" fill="#828282" stroke="" stroke-width="1.456" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M15.5268 19.7558C15.8095 19.7558 16.0386 19.5266 16.0386 19.2439C16.0386 18.9612 15.8095 18.7321 15.5268 18.7321C15.2441 18.7321 15.0149 18.9612 15.0149 19.2439C15.0149 19.5266 15.2441 19.7558 15.5268 19.7558Z" fill="#828282" stroke="" stroke-width="1.456" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M2.72998 3.37585H4.77748L6.82498 15.6609H17.0625L19.11 6.44711H5.80123" stroke="" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.36051 19.7558C8.64321 19.7558 8.87238 19.5266 8.87238 19.2439C8.87238 18.9612 8.64321 18.7321 8.36051 18.7321C8.07781 18.7321 7.84863 18.9612 7.84863 19.2439C7.84863 19.5266 8.07781 19.7558 8.36051 19.7558Z" fill="#828282" stroke="" strokeWidth="1.456" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M15.5268 19.7558C15.8095 19.7558 16.0386 19.5266 16.0386 19.2439C16.0386 18.9612 15.8095 18.7321 15.5268 18.7321C15.2441 18.7321 15.0149 18.9612 15.0149 19.2439C15.0149 19.5266 15.2441 19.7558 15.5268 19.7558Z" fill="#828282" stroke="" strokeWidth="1.456" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M2.72998 3.37585H4.77748L6.82498 15.6609H17.0625L19.11 6.44711H5.80123" stroke="" strokeWidth="1.456" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                         <div className="rounded-full overflow-hidden border border-gray-400 absolute top-0 right-3.5 text-[8px] bg-white text-gray-500 w-3 h-3 flex items-center justify-center group-hover:text-red-500 group-hover:border-red-500">0</div>
                                     </div>
@@ -330,9 +330,9 @@ export default function Footer(props) {
                                 <a href="" title="" className="group text-center">
                                     <div className="">
                                         <svg width="24" height="26" viewBox="0 0 24 26" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="mx-auto mb-2 text-gray-400 group-hover:text-red-500">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6C8.66879 6 5.96876 8.70004 5.96876 12.0312V17.2816C5.96876 17.3971 5.94875 17.5117 5.90963 17.6204L5.54791 18.625H18.4521L18.0904 17.6204C18.0513 17.5117 18.0313 17.3971 18.0313 17.2816V12.0312C18.0313 8.70004 15.3312 6 12 6ZM3.96876 12.0312C3.96876 7.59547 7.56422 4 12 4C16.4358 4 20.0313 7.59547 20.0313 12.0312V17.1071L20.8159 19.2862C20.9262 19.5926 20.8804 19.9336 20.6932 20.2C20.5059 20.4664 20.2007 20.625 19.875 20.625H4.12501C3.79935 20.625 3.4941 20.4664 3.30685 20.2C3.1196 19.9336 3.07382 19.5926 3.18414 19.2862L3.96876 17.1071V12.0312Z" fill="" />
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.625 18.625C9.17728 18.625 9.625 19.0727 9.625 19.625C9.625 20.9368 10.6882 22 12 22C13.3118 22 14.375 20.9368 14.375 19.625C14.375 19.0727 14.8227 18.625 15.375 18.625C15.9273 18.625 16.375 19.0727 16.375 19.625C16.375 22.0414 14.4164 24 12 24C9.58359 24 7.625 22.0414 7.625 19.625C7.625 19.0727 8.07272 18.625 8.625 18.625Z" fill="" />
-                                            <circle cx="18" cy="6" r="5" fill="white" stroke="#828282" stroke-width="2" className="group-hover:stroke-red-500" />
+                                            <path fillRule="evenodd" clipRule="evenodd" d="M12 6C8.66879 6 5.96876 8.70004 5.96876 12.0312V17.2816C5.96876 17.3971 5.94875 17.5117 5.90963 17.6204L5.54791 18.625H18.4521L18.0904 17.6204C18.0513 17.5117 18.0313 17.3971 18.0313 17.2816V12.0312C18.0313 8.70004 15.3312 6 12 6ZM3.96876 12.0312C3.96876 7.59547 7.56422 4 12 4C16.4358 4 20.0313 7.59547 20.0313 12.0312V17.1071L20.8159 19.2862C20.9262 19.5926 20.8804 19.9336 20.6932 20.2C20.5059 20.4664 20.2007 20.625 19.875 20.625H4.12501C3.79935 20.625 3.4941 20.4664 3.30685 20.2C3.1196 19.9336 3.07382 19.5926 3.18414 19.2862L3.96876 17.1071V12.0312Z" fill="" />
+                                            <path fillRule="evenodd" clipRule="evenodd" d="M8.625 18.625C9.17728 18.625 9.625 19.0727 9.625 19.625C9.625 20.9368 10.6882 22 12 22C13.3118 22 14.375 20.9368 14.375 19.625C14.375 19.0727 14.8227 18.625 15.375 18.625C15.9273 18.625 16.375 19.0727 16.375 19.625C16.375 22.0414 14.4164 24 12 24C9.58359 24 7.625 22.0414 7.625 19.625C7.625 19.0727 8.07272 18.625 8.625 18.625Z" fill="" />
+                                            <circle cx="18" cy="6" r="5" fill="white" stroke="#828282" strokeWidth="2" className="group-hover:stroke-red-500" />
                                         </svg>
                                     </div>
                                     <p className="text-gray-400 group-hover:text-red-500 text-[10px]">Thông báo</p>
@@ -342,8 +342,8 @@ export default function Footer(props) {
                                 <a href="" title="" className="group text-center">
                                     <div className="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" className="mx-auto mb-2 text-gray-400 group-hover:text-red-500">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 2.00061C8.3971 2.00061 7.09766 3.30005 7.09766 4.90299C7.09766 6.50593 8.3971 7.80537 10 7.80537C11.603 7.80537 12.9024 6.50593 12.9024 4.90299C12.9024 3.30005 11.603 2.00061 10 2.00061ZM5.09766 4.90299C5.09766 2.19548 7.29253 0.000610352 10 0.000610352C12.7075 0.000610352 14.9024 2.19548 14.9024 4.90299C14.9024 7.6105 12.7075 9.80537 10 9.80537C7.29253 9.80537 5.09766 7.6105 5.09766 4.90299Z" fill="" />
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.51784 13.3905C4.47035 13.3905 2 15.8609 2 18.9083V18.9995C2 19.5518 1.55228 19.9995 1 19.9995C0.447715 19.9995 0 19.5518 0 18.9995V18.9083C0 14.7563 3.36578 11.3905 7.51784 11.3905H12.4822C16.6342 11.3905 20 14.7563 20 18.9083V18.9995C20 19.5518 19.5523 19.9995 19 19.9995C18.4477 19.9995 18 19.5518 18 18.9995V18.9083C18 15.8609 15.5296 13.3905 12.4822 13.3905H7.51784Z" fill="" />
+                                            <path fillRule="evenodd" clipRule="evenodd" d="M10 2.00061C8.3971 2.00061 7.09766 3.30005 7.09766 4.90299C7.09766 6.50593 8.3971 7.80537 10 7.80537C11.603 7.80537 12.9024 6.50593 12.9024 4.90299C12.9024 3.30005 11.603 2.00061 10 2.00061ZM5.09766 4.90299C5.09766 2.19548 7.29253 0.000610352 10 0.000610352C12.7075 0.000610352 14.9024 2.19548 14.9024 4.90299C14.9024 7.6105 12.7075 9.80537 10 9.80537C7.29253 9.80537 5.09766 7.6105 5.09766 4.90299Z" fill="" />
+                                            <path fillRule="evenodd" clipRule="evenodd" d="M7.51784 13.3905C4.47035 13.3905 2 15.8609 2 18.9083V18.9995C2 19.5518 1.55228 19.9995 1 19.9995C0.447715 19.9995 0 19.5518 0 18.9995V18.9083C0 14.7563 3.36578 11.3905 7.51784 11.3905H12.4822C16.6342 11.3905 20 14.7563 20 18.9083V18.9995C20 19.5518 19.5523 19.9995 19 19.9995C18.4477 19.9995 18 19.5518 18 18.9995V18.9083C18 15.8609 15.5296 13.3905 12.4822 13.3905H7.51784Z" fill="" />
                                         </svg>
                                     </div>
                                     <p className="text-gray-400 group-hover:text-red-500 text-[10px]">Tài khoản</p>
@@ -355,14 +355,14 @@ export default function Footer(props) {
             </footer>
 
             <div className="fixed right-5 xl:right-8 bottom-20 z-[900]">
-                <a onclick="openForm()" title=""
+                <a title=""
                     className="zoom-70 xs:zoom-80 md:zoom-100 w-16 h-16 flex items-center flex-wrap justify-center mb-3 transition-all overflow-hidden bg-white rounded-full drop-shadow-2xl cursor-pointer">
                     <div className="">
                         <img src="./images/icon/mail.png" className="m-auto" />
                         <p className="text-[13px] uppercase text-green-500 font-medium">GÓP Ý</p>
                     </div>
                 </a>
-                <a onclick="openFormChat()" title=""
+                <a title=""
                     className="zoom-70 xs:zoom-80 md:zoom-100 w-16 h-16 flex items-center flex-wrap justify-center mb-3 transition-all overflow-hidden bg-white rounded-full drop-shadow-2xl cursor-pointer">
                     <img src="./images/icon/mess.png" />
                 </a>
@@ -375,7 +375,7 @@ export default function Footer(props) {
                         <img src="./images/icon/Logo-filnal.png" className="ml-1" width="36" height="32" />
                         <span className="text-xs font-medium text-white ml-2">T-Mart.com sẵn sàng hỗ trợ quý khách</span>
                     </div>
-                    <button type="button" className="pr-2 text-white" onclick="closeForm()">
+                    <button type="button" className="pr-2 text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-x-lg"
                             viewBox="0 0 16 16">
                             <path
@@ -392,13 +392,13 @@ export default function Footer(props) {
                         <div className="flex gap-8 xs:gap-12 mb-5">
                             <div className="flex items-center">
                                 <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat1" />
-                                <label className="cursor-pointer inline-block text-gray-800" for="chat1">
+                                <label className="cursor-pointer inline-block text-gray-800" htmlFor="chat1">
                                     Anh
                                 </label>
                             </div>
                             <div className="flex items-center">
-                                <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat2" checked />
-                                <label className="cursor-pointer inline-block text-gray-800" for="chat2">
+                                <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="chatbox" id="chat2" />
+                                <label className="cursor-pointer inline-block text-gray-800" htmlFor="chat2">
                                     Chị
                                 </label>
                             </div>
@@ -430,7 +430,7 @@ export default function Footer(props) {
                         <img src="./images/icon/Logo-filnal.png" className="ml-1" width="36" height="32" />
                         <span className="text-xs font-medium text-white ml-2">T-Mart.com sẵn sàng hỗ trợ quý khách</span>
                     </div>
-                    <button type="button" className="pr-2 text-white" onclick="closeFormChat()">
+                    <button type="button" className="pr-2 text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-x-lg"
                             viewBox="0 0 16 16">
                             <path

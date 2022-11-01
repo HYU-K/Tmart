@@ -29,13 +29,13 @@ export default function Contact({ }) {
                             <div className="flex gap-8 sm:gap-12 mb-3 lg:mb-5">
                                 <div className="flex items-center">
                                     <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                    <label className="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault1">
+                                    <label className="text-sm cursor-pointer inline-block text-gray-800" htmlFor="flexRadioDefault1">
                                         Anh
                                     </label>
                                 </div>
                                 <div className="flex items-center">
-                                    <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                    <label className="text-sm cursor-pointer inline-block text-gray-800" for="flexRadioDefault2">
+                                    <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                    <label className="text-sm cursor-pointer inline-block text-gray-800" htmlFor="flexRadioDefault2">
                                         Chị
                                     </label>
                                 </div>

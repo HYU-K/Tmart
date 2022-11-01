@@ -62,7 +62,7 @@ export default function System({ }) {
                                     <div className="flex items-start py-5 relative before:content-[attr(before)] before:bottom-0 before:left-0 before:w-[200%] before:h-[1px] before:bg-gray-200 before:absolute">
                                         <div className="mr-3 mt-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
+                                                <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
                                             </svg>
                                         </div>
                                         <a href="" title="" className={`text-texth text-sm overflow-hidden ${styles.limit_text_2}`}>Số 6 Biệt thự 2, bán đảo Linh Đàm, P. Hoàng Liệt, Q. Hoàng Mai, Hà Nội</a>
@@ -70,7 +70,7 @@ export default function System({ }) {
                                     <div className="flex items-start py-5 relative before:content-[attr(before)] before:bottom-0 before:left-0 before:w-[200%] before:h-[1px] before:bg-gray-200 before:absolute">
                                         <div className="mr-3 mt-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
+                                                <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
                                             </svg>
                                         </div>
                                         <a href="" title="" className={`text-texth text-sm overflow-hidden ${styles.limit_text_2}`}>Số 6 Biệt thự 2, bán đảo Linh Đàm, P. Hoàng Liệt, Q. Hoàng Mai, Hà Nội</a>
@@ -78,7 +78,7 @@ export default function System({ }) {
                                     <div className="flex items-start py-5 relative before:content-[attr(before)] before:bottom-0 before:left-0 before:w-[200%] before:h-[1px] before:bg-gray-200 before:absolute">
                                         <div className="mr-3 mt-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
+                                                <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
                                             </svg>
                                         </div>
                                         <a href="" title="" className={`text-texth text-sm overflow-hidden ${styles.limit_text_2}`}>Số 6 Biệt thự 2, bán đảo Linh Đàm, P. Hoàng Liệt, Q. Hoàng Mai, Hà Nội</a>
@@ -86,7 +86,7 @@ export default function System({ }) {
                                     <div className="flex items-start py-5 relative before:content-[attr(before)] before:bottom-0 before:left-0 before:w-[200%] before:h-[1px] before:bg-gray-200 before:absolute">
                                         <div className="mr-3 mt-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="bi bi-record-fill" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
+                                                <path fillRule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z"></path>
                                             </svg>
                                         </div>
                                         <a href="" title="" className={`text-texth text-sm overflow-hidden ${styles.limit_text_2}`}>Số 6 Biệt thự 2, bán đảo Linh Đàm, P. Hoàng Liệt, Q. Hoàng Mai, Hà Nội</a>
@@ -95,7 +95,7 @@ export default function System({ }) {
                                 <div className="flex items-center justify-center overflow-hidden">
                                     <a href="" title="" className="flex items-center justify-center">
                                         <span className="text-[13px] mr-2 text-gray-500">Xem thêm 99 cửa hàng</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-chevron-right transform rotate-90" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" className="bi bi-chevron-right transform rotate-90" viewBox="0 0 16 16"><path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg>
                                     </a>
                                 </div>
                             </div>

@@ -59,7 +59,7 @@ export default function Product(props) {
             <div className="sm:container">
                 <div className="lg:pl-60 w-full sm:pt-2">
                     <div className=" bg-white inline-block w-full p-4 mb-4 sm:px-5 sm:mb-5">
-                        <div class={`overflow-hidden mb-4 ${styles.limit_text_1}`}>
+                        <div className={`overflow-hidden mb-4 ${styles.limit_text_1}`}>
                             <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
                             <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
                             <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Hoa quả</a>
@@ -71,10 +71,10 @@ export default function Product(props) {
                             <div className='w-full xl:w-1/2 xl:pl-10'>
                                 <div className="flex items-center mb-4">
                                     <input className="appearance-none rounded-full h-4 w-4 relative border border-gray-400 bg-white checked:border-red-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-red-600" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" />
-                                    <label className="text-sm cursor-pointer inline-block text-gray-500" for="flexRadioDefault1">Xem trực tiếp rau củ quả</label>
+                                    <label className="text-sm cursor-pointer inline-block text-gray-500" htmlFor="flexRadioDefault1">Xem trực tiếp rau củ quả</label>
                                 </div>
                                 <h2 className='text-xl xs:text-[22px] text-texth font-bold mb-4'>Kiwi vàng Zespri hộp 500g (3-5 trái)</h2>
-                                <div class={`p-2 flex items-center justify-between gap-2 mb-5 zoom-80 xs:zoom-100 ${styles.bg_flash_sales}`}>
+                                <div className={`p-2 flex items-center justify-between gap-2 mb-5 zoom-80 xs:zoom-100 ${styles.bg_flash_sales}`}>
                                     <div className=''><img src="./images/flast.png" alt="" /></div>
                                     <div className="countdown_time flex items-center gap-1" id="countdown">
                                         <h4 className="text-xs text-white">Kết thúc sau:</h4>
@@ -145,7 +145,7 @@ export default function Product(props) {
                                     <div className="grid grid-cols-2 gap-4 xs:gap-6">
                                         <div className="p-2 xs:py-3 xs:px-5 border rounded overflow-hidden border-gray-200 grid items-center justify-center hover:border-green-600">
                                             <input className="appearance-none rounded-full h-4 w-4 relative border bg-gray-300 checked:bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mx-auto mb-3 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="Default1" />
-                                            <label className="text-sm cursor-pointer inline-block text-gray-800" for="Default1">
+                                            <label className="text-sm cursor-pointer inline-block text-gray-800" htmlFor="Default1">
                                                 <div className='flex items-center gap-x-3'>
                                                     <div className='rounded overflow-hidden w-6 h-6 xs:w-10 xs:h-10'>
                                                         <img src="./images/detail3.png" alt='' className='w-full h-full object-cover' />
@@ -158,8 +158,8 @@ export default function Product(props) {
                                             </label>
                                         </div>
                                         <div className="p-2 xs:py-3 xs:px-5 border rounded overflow-hidden border-gray-200 grid items-center justify-center hover:border-green-600">
-                                            <input className="appearance-none rounded-full h-4 w-4 relative border bg-gray-300 checked:bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mx-auto mb-3 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="Default2" checked />
-                                            <label className="text-sm cursor-pointer inline-block text-gray-800" for="Default2">
+                                            <input className="appearance-none rounded-full h-4 w-4 relative border bg-gray-300 checked:bg-white checked:border-green-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain mx-auto mb-3 cursor-pointer before:content-[attr(before)] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:rounded-full checked:before:bg-green-600" type="radio" name="flexRadioDefault" id="Default2" />
+                                            <label className="text-sm cursor-pointer inline-block text-gray-800" htmlFor="Default2">
                                                 <div className='flex items-center gap-x-3'>
                                                     <div className='rounded overflow-hidden w-6 h-6 xs:w-10 xs:h-10'>
                                                         <img src="./images/detail3.png" alt='' className='w-full h-full object-cover' />
@@ -223,7 +223,7 @@ export default function Product(props) {
                     <div className=" bg-white inline-block w-full p-4 mb-4 sm:p-5 sm:mb-5">
                         <div className='grid xl:flex gap-10'>
                             <div className='xl:w-3/5'>
-                                <div class={`text-texth relative max-h-[460px] border-b border-gray-200 overflow-hidden bg-white ${styles.products_description}`}>
+                                <div className={`text-texth relative max-h-[460px] border-b border-gray-200 overflow-hidden bg-white ${styles.products_description}`}>
                                     <h2 className='text-xl mb-3 text-black font-medium'>Thông tin sản phẩm</h2>
                                     <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng Đệm lunarlon
                                         mềm và vững chắc Cấu trúc form giày Flywire Công nghệ Flymesh siêu nhẹ và thoáng khí Cấu
@@ -269,7 +269,7 @@ export default function Product(props) {
                                     <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
                                         người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
 
-                                    <div class={`absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4 ${styles.click_more}`}>
+                                    <div className={`absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4 ${styles.click_more}`}>
                                         <button id="btn-more" className="flex items-center justify-center">
                                             <span className="text-[13px] text-green-500 font-medium">Xem thêm</span>
                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"

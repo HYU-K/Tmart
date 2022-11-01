@@ -25,7 +25,7 @@ export default function ListProducts({ }) {
             <div className="hidden xs:block">
               <SlidePage />
             </div>
-            <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
+            <div className={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
               <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
               <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
               <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Hoa quả</a>
@@ -87,7 +87,7 @@ export default function ListProducts({ }) {
                   }
                 </div>
               </div>
-              <div class={`text-texth relative max-h-96 overflow-hidden bg-white p-4 xs:p-5 sm:p-8 ${styles.products_description}`}>
+              <div className={`text-texth relative max-h-96 overflow-hidden bg-white p-4 xs:p-5 sm:p-8 ${styles.products_description}`}>
                 <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng Đệm lunarlon
                   mềm và vững chắc Cấu trúc form giày Flywire Công nghệ Flymesh siêu nhẹ và thoáng khí Cấu
                   trúc lưới nhẹ, đa lớp sử dụng vật liệu lót tối thiểu để giảm độ cứng gót chân</p>
@@ -132,7 +132,7 @@ export default function ListProducts({ }) {
                 <p>Công nghệ VaporMax mang lại trải nghiệm êm dịu và cân bằng giúp
                   người mang luôn cảm thấy thoải mái dù phải mang trong thời gian dài.</p>
 
-                <div class={`absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4 ${styles.click_more}`}>
+                <div className={`absolute bottom-0 left-0 w-full h-48 flex items-end justify-center pb-4 ${styles.click_more}`}>
                   <button id="btn-more" className="flex items-center justify-center">
                     <span className="text-[13px] text-green-500 font-medium">Xem thêm</span>
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none"

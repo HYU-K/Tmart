@@ -25,7 +25,7 @@ export default function ListProducts({ }) {
             <div className="hidden xs:block">
               <SlidePage />
             </div>
-            <div class={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
+            <div className={`overflow-hidden mb-4 mt-4 sm:mb-6 lg:mb-7 ${styles.limit_text_1}`}>
               <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Trang chủ</a>
               <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Sản phẩm</a>
               <a before="" href="" title="" className="relative text-[13px] text-texth pr-6 before:content-[attr(before)] before:absolute before:top-[8px] before:right-[10px] before:w-1 before:h-1 before:border-t before:border-r before:border-gray-600 before:rotate-45 last:before:content-none last:text-gray-400 last:pr-0">Khuyến mãi hot</a>
