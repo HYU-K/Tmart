@@ -97,7 +97,7 @@ export default function Account({ }) {
               </div>
 
 
-              <ul className="text-xs mb-5">
+              <ul className="text-xs mb-5 hidden">
                 <li className="mb-2">
                   <div className="flex items-center gap-1 text-sm text-black">
                     <span className="text-bdtext">Người nhận: </span>
@@ -115,8 +115,13 @@ export default function Account({ }) {
                     <span className="font-medium">123, Phường An Khánh (Q2), TP. Thủ Đức (Q2, Q9, Thủ Đức), TP. Hồ Chí Minh</span>
                   </div>
                 </li>
+                <li className="mb-2">
+                  <div className="text-sm text-color1">
+                    <a className="addnote" onclick="">Thêm ghi chú</a>
+                  </div>
+                </li>
               </ul>
-              <ul className="text-xs mb-5 hidden">
+              <ul className="text-xs mb-5 ">
                 <li className="mb-2">
                   <div className="text-sm text-black">
                     <span className="text-bdtext mr-5">Giao lúc: </span>
@@ -221,8 +226,8 @@ export default function Account({ }) {
             </div>
             <div className="px-4">
               <div class="bg-[#fff7e2] p-4">
-                <div id="" class="text-center text-sm sm:text-base flex items-center justify-center gap-2">
-                  <img src="./images/icon/4518.png" alt="" width={36} />
+                <div id="" class="text-center text-[8px] xs:text-[10px] sm:text-xs lg:text-base flex items-center justify-center gap-2">
+                  <img src="./images/icon/4518.png" alt="" width={36} className="max-w-[16px] xs:max-w-[20px] lg:max-w-none" />
                   <span> Anh DASSSSS</span> đã chọn hình thức thanh toán <b>tiền mặt khi nhận hàng</b>
                 </div>
               </div>
@@ -230,7 +235,7 @@ export default function Account({ }) {
                 <div className="my-4 font-bold text-base sm:text-lg text-center">
                   Anh Dasssss có thể thanh toán trước bằng
                 </div>
-                <div className="grid grid-cols-2 gap-x-3">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-3">
                   <div className="mb-3 h-[45px] border rounded overflow-hidden border-color1 p-2 flex items-center justify-center cursor-pointer">
                     <a className="" href="" title="">
                       <label className="flex items-center gap-3 cursor-pointer">
@@ -275,7 +280,7 @@ export default function Account({ }) {
                       <label className="flex items-center gap-3 cursor-pointer">
                         <div className="flex items-center gap-1 text-sm text-[#ae2070]">
                           <span className="font-bold">Thanh toán qua</span>
-                          <img src="./images/icon/momo.png" alt="" width={40} />
+                          <img src="./images/icon/momo.png" alt="" width={36} />
                         </div>
                       </label>
                     </a>
@@ -285,7 +290,7 @@ export default function Account({ }) {
                       <label className="flex items-center gap-3 cursor-pointer">
                         <div className="flex items-center gap-1 text-sm text-color1">
                           <span className="font-bold">Thanh toán qua</span>
-                          <img src="./images/icon/zalo.png" alt="" width={40} />
+                          <img src="./images/icon/zalo.png" alt="" width={36} />
                         </div>
                       </label>
                     </a>
@@ -295,7 +300,7 @@ export default function Account({ }) {
                       <label className="flex items-center gap-3 cursor-pointer">
                         <div className="flex items-center gap-1 text-sm text-[#ae2070]">
                           <span className="font-bold">Thanh toán qua</span>
-                          <img src="./images/icon/moca.png" alt="" width={40} />
+                          <img src="./images/icon/moca.png" alt="" width={36} />
                         </div>
                       </label>
                     </a>
@@ -305,7 +310,7 @@ export default function Account({ }) {
                       <label className="flex items-center gap-3 cursor-pointer">
                         <div className="flex items-center gap-1 text-sm text-color1">
                           <span className="font-bold">Thanh toán qua</span>
-                          <img src="./images/icon/vnpay.png" alt="" width={40} />
+                          <img src="./images/icon/vnpay.png" alt="" width={36} />
                         </div>
                       </label>
                     </a>
@@ -409,9 +414,9 @@ export default function Account({ }) {
                   </div>
                 </li>
               </ul>
-              <div className="zoom-80 xs:zoom-100 border-t " data-type="">
+              <div className="zoom-80 xs:zoom-100 border-t mb-3" data-type="">
                 <div className="my-4">
-                <div class="p-2.5 bg-[#e9edf0] rounded text-sm "><b>Đơn hàng #64757572 đã bị hủy lúc 14:48</b> Địa chỉ và sđt không có</div>
+                  <div class="p-2.5 bg-[#e9edf0] rounded text-sm "><b>Đơn hàng #64757572 đã bị hủy lúc 14:48</b> Địa chỉ và sđt không có</div>
                 </div>
                 <div className="text-black">
                   <div className="">
@@ -488,8 +493,8 @@ export default function Account({ }) {
             </div>
             <div className="border-[#f4f4f4] px-4 mb-8">
               <div className="flex flex-wrap items-center justify-center gap-3 xs:gap-0">
-                <a className="w-fit px-4 h-[45px] flex items-center justify-center text-sm border border-blue-500 text-blue-500 rounded" href="">
-                  <span className="text-sm">Mua lại đơn hàng này</span>
+                <a className="w-fit px-3 xs:px-4 h-8 xs:h-[45px] flex items-center justify-center text-sm border border-blue-500 text-blue-500 rounded" href="">
+                  <span className="text-xs xs:text-sm">Mua lại đơn hàng này</span>
                 </a>
               </div>
             </div>
