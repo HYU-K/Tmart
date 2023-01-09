@@ -154,6 +154,7 @@ export default function Cart({ }) {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="w-full bg-white p-4 sm:px-7 sm:py-5 mb-2">
                         <h3 className="text-sm text-texth font-bold mb-4">5. Hình thức thanh toán:</h3>
                         <div className="mb-4">
