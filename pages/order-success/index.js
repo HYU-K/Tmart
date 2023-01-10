@@ -19,7 +19,6 @@ export default function Cart({ }) {
             <div className="overflow-hidden shadow">
                 <Header />
             </div>
-
             <div className="sm:container">
                 <div className="w-full max-w-[640px] mx-auto">
                     <div className="w-full bg-white p-4 flex items-center justify-center">

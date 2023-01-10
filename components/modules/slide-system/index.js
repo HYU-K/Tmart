@@ -42,8 +42,7 @@ export default function SlideSystem() {
                 >
                     <SwiperSlide className="swiper-slide relative rounded overflow-hidden">
                         <div className="relative transition-all w-full pt-[60%]">
-                            <img src="./images/khuyenmai.png" alt=""
-                                className="absolute top-1/2 left-1/2 overflow-hidden transform -translate-y-1/2 -translate-x-1/2 w-full h-full object-cover" />
+                             
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide relative rounded overflow-hidden">
